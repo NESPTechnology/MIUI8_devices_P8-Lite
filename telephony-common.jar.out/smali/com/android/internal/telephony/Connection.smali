@@ -83,6 +83,8 @@
     .end annotation
 .end field
 
+.field protected mPostDialString:Ljava/lang/String;
+
 .field public mPreHandoverState:Lcom/android/internal/telephony/Call$State;
 
 .field private mRemoteVideoCapable:Z
