@@ -2,6 +2,6 @@ out/*
 temp/*
 *.zip
 history_package/*
-stockrom/app/webview/webview.apk
+stockrom/system/app/webview/*
 nesp_custom/system/lib/*
 nesp_custom/system/lib64/*
