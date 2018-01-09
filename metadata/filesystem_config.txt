@@ -1280,6 +1280,7 @@ system/lib/libBestShot.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities
 system/lib/libCameraHwExtend.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libCompareBitmap.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libDocBeauty.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/libDiracAPI_SHARED.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libEGL.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libETC1.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/libFFTEm.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1584,6 +1585,7 @@ system/lib/hw/vibrator.default.so 0 0 644 selabel=u:object_r:system_file:s0 capa
 system/lib/soundfx 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/soundfx/libaudiopreprocessing.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/soundfx/libbundlewrapper.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/lib/soundfx/libdirac.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/soundfx/libdownmix.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/soundfx/libeffectproxy.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/lib/soundfx/libldnhncr.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -2261,6 +2263,10 @@ system/usr/share/bmd/RFFstd_501.bmd 0 0 644 selabel=u:object_r:system_file:s0 ca
 system/usr/share/zoneinfo 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/usr/share/zoneinfo/tzdata 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/vendor/etc 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/vendor/etc/audio_effects.conf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/vendor/etc/diracmobile.config 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/vendor/etc/diracmobile_4.config 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/firmware 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/firmware/4343A0_001.001.034.0056.0193_ORC.hcd 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/firmware/BCM4334B0_002.001.013.1554.1613_RC.hcd 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
