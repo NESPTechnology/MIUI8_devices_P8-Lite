@@ -1,0 +1,10 @@
+/3rdmodem	emmc	/dev/block/platform/hi_mci.0/by-name/3rdmodem
+/cache	ext4	/dev/block/platform/hi_mci.0/by-name/cache
+/data	ext4	/dev/block/platform/hi_mci.0/by-name/userdata
+/cust	ext4	/dev/block/platform/hi_mci.0/by-name/cust
+/oeminfo	emmc	/dev/block/platform/hi_mci.0/by-name/oeminfo
+/boot	emmc	/dev/block/platform/hi_mci.0/by-name/boot
+/misc	emmc	/dev/block/platform/hi_mci.0/by-name/misc
+/recovery	emmc	/dev/block/platform/hi_mci.0/by-name/recovery
+/system	ext4	/dev/block/platform/hi_mci.0/by-name/system
+/external_sd	vfat	/dev/block/mmcblk1p1
