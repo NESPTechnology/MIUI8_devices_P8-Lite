@@ -2,6 +2,13 @@ import common
 import edify_generator
 import os
 
+def RemoveDeviceAssert(info):
+  edify = info.script
+  for i in xrange(len(edify.script)):
+    if "ro.product" in edify.script[i]:
+      edify.script[i] = ''
+      return
+
 def ModifyBegin(edify):
   edify.script[0] = \
   '''ifelse(is_mounted("/system"), unmount("/system"));
