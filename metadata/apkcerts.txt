@@ -20,7 +20,7 @@ name="DownloadProviderUi.apk" certificate="build/target/product/security/media.x
 name="Email.apk" certificate="PRESIGNED" private_key=""
 name="ExactCalculator.apk" certificate="PRESIGNED" private_key=""
 name="ExternalStorageProvider.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
-name="AssistantFav.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8
+name="AssistantFav.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
 name="Footej.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
 name="framework-res.apk.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
 name="framework-res.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
