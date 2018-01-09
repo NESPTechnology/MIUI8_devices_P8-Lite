@@ -1,5 +1,5 @@
 #
-## Makefile for nexus 6P
+## Makefile for P8-Lite
 #
 #
 ## The original zip file, MUST be specified by each product
@@ -17,6 +17,10 @@ include phoneapps.mk
 
 local-density := XHDPI
 local-target-bit := 64
+
+local-miui-modified-apps := TeleService InCallUI
+
+local-miui-removed-apps := FM
 
 local-pre-zip := local-pre-zip-misc
 local-after-zip:= local-put-to-phone
