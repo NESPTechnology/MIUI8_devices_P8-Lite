@@ -23,5 +23,6 @@ ui_print("******************************************");\n''' + edify.script[0]
 
 def FullOTA_InstallEnd(info):
     edify = info.script
-    ModifyBegin(edify)
     RemoveDeviceAssert(info)
+    ModifyBegin(edify)
+

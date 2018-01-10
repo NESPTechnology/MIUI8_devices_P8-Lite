@@ -18,7 +18,7 @@ include phoneapps.mk
 local-density := XHDPI
 local-target-bit := 64
 
-local-miui-modified-apps := TeleService InCallUI
+local-miui-modified-apps := InCallUI
 
 local-miui-removed-apps := FM
 
