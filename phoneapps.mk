@@ -19,7 +19,8 @@ private-phone-apps := \
 	PrintSpooler \
 	PicoTts \
 	LatinIME \
-	WAPPushManager
+	WAPPushManager \
+	webview
 
 private-phone-priv-apps := \
 	BackupRestoreConfirmation \
