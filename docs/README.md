@@ -2,7 +2,7 @@
 
  ![MIUI8][1]
 
-## LICENSE：[NESP Software License v1.1](http://ns-jin.github.io/docs/license/NESL.html) | [Apache2.0](http://ns-jin.github.io/docs/license/Apache.html) | [GPLv2](http://ns-jin.github.io/docs/license/GPL.html)
+## LICENSE：[NESP Software License v1.1](https://ns-jin.github.io/docs/license/NESL.html) | [Apache2.0](https://ns-jin.github.io/docs/license/Apache.html) | [GPLv2](https://ns-jin.github.io/docs/license/GPL.html)
 
 | Item | Information |
 |:----------:|:----------:|
