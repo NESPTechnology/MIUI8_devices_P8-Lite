@@ -18,7 +18,10 @@ include phoneapps.mk
 local-density := XHDPI
 local-target-bit := 64
 
-local-miui-modified-apps := InCallUI
+# The output zip file of MIUI rom, the default is porting_miui.zip if not specified
+local-out-zip-file := MIUI8-02.20180109-180756_UNOFFICIAL_NESP_ALE-L21.zip
+
+local-miui-modified-apps := InCallUI 
 
 local-miui-removed-apps := FM
 
