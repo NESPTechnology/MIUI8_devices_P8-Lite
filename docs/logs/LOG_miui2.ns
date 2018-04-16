@@ -1,0 +1,1693 @@
+--------- beginning of main
+03-24 15:10:50.376  2376  2376 W auditd  : type=2000 audit(0.0:1): initialized
+--------- beginning of system
+03-24 15:10:54.763  2391  2394 W vold    : Failed to read manufacturer from /sys//devices/hi_mci.1/mmc_host/mmc1/mmc1:0001/block/mmcblk1/device/manfid: No such file or directory
+03-24 15:10:55.186  2500  2500 E miui-init: waitpid failed: No child processes
+03-24 15:10:55.191  2500  2500 W miui-init: (Parsing /system/etc/init.miui.rc took 0.01s.)
+03-24 15:10:55.191  2500  2500 W miui-init: Starting service 'shelld'...
+03-24 15:10:55.192  2500  2500 W miui-init: Starting service 'fdpp'...
+03-24 15:10:55.200  2485  2485 E SELinux : avc:  denied  { add } for service=miui.fdpp scontext=u:r:kernel:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager
+03-24 15:10:55.203  2511  2511 E perfprofd: unable to open configuration file /data/data/com.google.android.gms/files/perfprofd.conf
+03-24 15:10:55.219  2485  2485 E ServiceManager: add_service('miui.fdpp',2) uid=0 - ALREADY REGISTERED, OVERRIDE
+03-24 15:10:55.222  2485  2485 E SELinux : avc:  denied  { add } for service=android.security.keystore scontext=u:r:kernel:s0 tcontext=u:object_r:keystore_service:s0 tclass=service_manager
+03-24 15:10:55.230  2510  2510 W gatekeeperd: falling back to software GateKeeper
+03-24 15:10:55.238  2485  2485 E SELinux : avc:  denied  { add } for service=android.service.gatekeeper.IGateKeeperService scontext=u:r:kernel:s0 tcontext=u:object_r:gatekeeper_service:s0 tclass=service_manager
+03-24 15:10:55.371  2486  2486 W Meticulus HWComposer: Using fake vsync on primary...
+03-24 15:10:55.371  2486  2486 W Meticulus HWComposer: Could not open fb1 file!
+03-24 15:10:55.371  2486  2486 W Meticulus HWComposer: External physicals display will be unavailable.
+03-24 15:10:55.371  2486  2486 E Meticulus HWComposer: Could not open fb2 file!
+03-24 15:10:55.371  2486  2486 W Meticulus HWComposer: Virtual displays will be unavailable.
+03-24 15:10:55.380  2485  2485 E SELinux : avc:  denied  { add } for service=SurfaceFlinger scontext=u:r:kernel:s0 tcontext=u:object_r:surfaceflinger_service:s0 tclass=service_manager
+03-24 15:10:55.561  2485  2485 E SELinux : avc:  denied  { find } for service=SurfaceFlinger scontext=u:r:kernel:s0 tcontext=u:object_r:surfaceflinger_service:s0 tclass=service_manager
+03-24 15:10:55.659  2485  2485 E SELinux : avc:  denied  { add } for service=drm.drmManager scontext=u:r:kernel:s0 tcontext=u:object_r:drmserver_service:s0 tclass=service_manager
+03-24 15:10:55.678  2342  2342 E OEMINFO_NVM_SERVER: pid 2488, opration nvm_read OK
+03-24 15:10:55.718  2574  2608 E BootAnimation: couldn't find audio_conf.txt
+03-24 15:10:55.777  2342  2342 E OEMINFO_NVM_SERVER: pid 2505, opration oeminfo_read OK
+03-24 15:10:55.779  2342  2342 E OEMINFO_NVM_SERVER: pid 2488, opration nvm_read OK
+03-24 15:10:55.843  2342  2342 E OEMINFO_NVM_SERVER: pid 2505, opration oeminfo_read OK
+03-24 15:10:55.843  2505  2505 E HWNFF   : HWNFF Daemon fireup
+03-24 15:10:55.968  2687  2687 F NDK_SUPLCLIENT_LAUNCHER: suplclientlauncher main() entered
+03-24 15:10:55.969  2687  2687 F NDK_SUPLCLIENT_LAUNCHER: suplclientlauncher main() calling umask()
+03-24 15:10:55.969  2687  2687 F NDK_SUPLCLIENT_LAUNCHER: suplclientlauncher main() calling dlerror()
+03-24 15:10:55.969  2687  2687 F NDK_SUPLCLIENT_LAUNCHER: suplclientlauncher main() opening log file
+03-24 15:10:55.969  2687  2687 F NDK_SUPLCLIENT_LAUNCHER: <<<<<<Start SUPL Client Launcher>>>>>>>
+03-24 15:10:55.974  2682  2682 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:55.995  2687  2687 F NDK_SUPLCLIENT_LAUNCHER: SPMSTATUS ConfigManager::FillSUPL2SuplProtocol(void*, SPM_SUPL_PROTOENGINE_2&) -- 3953: Inside the GSM tag of forcetest values
+03-24 15:10:55.999  2687  2687 F NDK_SUPLCLIENT_LAUNCHER: SPMSTATUS ConfigManager::FillSUPL2SuplProtocol(void*, SPM_SUPL_PROTOENGINE_2&) -- 4022: Inside the LTE tag of forcetest values
+03-24 15:10:55.999  2687  2687 F NDK_SUPLCLIENT_LAUNCHER: SPMSTATUS ConfigManager::FillSUPL2SuplProtocol(void*, SPM_SUPL_PROTOENGINE_2&) -- 4055: cellid of globalid is 23
+03-24 15:10:56.008  2687  2687 F NDK_SUPLCLIENT_LAUNCHER: SPMSTATUS ConfigManager::FillSUPL2SuplProtocol(void*, SPM_SUPL_PROTOENGINE_2&) -- 4198: Updated msisdn in the config params with value 918951322358
+03-24 15:10:56.009  2687  2687 E NDK_SUPLCLIENT_LAUNCHER: SPMSTATUS ConfigManager::FillHSLPParam(void*, SPM_HSLP_PARAM&) -- 3098: SSL Version set in config is 3
+03-24 15:10:56.011  2687  2687 F NDK_SUPLCLIENT_LAUNCHER: SPMSTATUS ConfigManager::FillGANSSParam(void*, SPM_GANSS_PARAM&) -- 1719: Inside the MSA of ganss
+03-24 15:10:56.011  2687  2687 F NDK_SUPLCLIENT_LAUNCHER: SPMSTATUS ConfigManager::FillGANSSParam(void*, SPM_GANSS_PARAM&) -- 1821: Inside the MSB of ganss
+03-24 15:10:56.013  2682  2682 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.013  2687  2687 F NDK_SUPLCLIENT_LAUNCHER: SPMSTATUS ConfigManager::Init(char*, char*) -- 931: After reading xml file
+03-24 15:10:56.013  2687  2687 F NDK_SUPLCLIENT_LAUNCHER: bDirectToFile = 0, bDirectToLogcat = 0
+03-24 15:10:56.015  2682  2682 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:56.020  2485  2485 E SELinux : avc:  denied  { add } for service=media.audio_flinger scontext=u:r:kernel:s0 tcontext=u:object_r:mediaserver_service:s0 tclass=service_manager
+03-24 15:10:56.021  2498  2498 E         : batterystats service unavailable!
+03-24 15:10:56.021  2498  2498 E         : batterystats service unavailable!
+03-24 15:10:56.021  2498  2498 E         : batterystats service unavailable!
+03-24 15:10:56.022  2498  2498 E         : batterystats service unavailable!
+03-24 15:10:56.027  2682  2682 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.029  2682  2682 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:56.039  2682  2682 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.040  2682  2682 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:56.049  2682  2682 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.050  2684  2684 E INI_SO  : [ini_find_var:745]not find Time!!!, check if var in correct mode
+03-24 15:10:56.050  2684  2684 E INI_SO  : [ini_find_var:745]not find Location!!!, check if var in correct mode
+03-24 15:10:56.051  2682  2682 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:56.051  2684  2684 E INI_SO  : [ini_find_var:745]not find StubPosition!!!, check if var in correct mode
+03-24 15:10:56.051  2684  2684 E INI_SO  : [ini_find_var:745]not find LeapSecond!!!, check if var in correct mode
+03-24 15:10:56.055  2684  2684 E INI_SO  : [ini_find_var:745]not find StubDeleteSv!!!, check if var in correct mode
+03-24 15:10:56.057  2684  2684 E INI_SO  : [ini_find_var:745]not find StubRawpowerWeight!!!, check if var in correct mode
+03-24 15:10:56.061  2682  2682 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.063  2682  2682 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:56.065  2684  2684 E INI_SO  : [ini_find_var:745]not find ExternLna!!!, check if var in correct mode
+03-24 15:10:56.074  2682  2682 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.075  2682  2682 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:56.075  2684  2684 E INI_SO  : [ini_find_var:745]not find EPHALMNUMAREA!!!, check if var in correct mode
+03-24 15:10:56.077  2684  2684 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:56.109  2684  2684 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.111  2684  2684 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:56.111  2682  2682 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.113  2682  2682 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:56.126  2682  2682 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.128  2682  2682 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:56.135  2684  2684 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.136  2684  2684 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:56.139  2682  2682 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.146  2684  2684 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.147  2684  2684 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:56.156  2684  2684 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.157  2684  2684 E INI_SO  : [ini_config_init:853]/data/hwlogdir/log_ctl/log_cfg is not exist, init log control system
+03-24 15:10:56.167  2684  2684 E INI_SO  : [ini_config_init:857]system() run err
+03-24 15:10:56.193  2684  2730 W GNSS_ENGINE: Failed to change file permission on path DEVICE_1.t,error:No such file or directory
+03-24 15:10:56.193  2684  2730 E GNSS_ENGINE: file pointer is NULL
+03-24 15:10:56.398  2485  2485 E ServiceManager: add_service('miui.shell',c) uid=1000 - ALREADY REGISTERED, OVERRIDE
+03-24 15:10:56.425  2498  2498 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:10:56.428  2498  2498 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:10:56.428  2498  2498 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:10:56.430  2498  2498 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:10:56.458  2498  2498 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:10:56.616  2498  2498 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:10:56.618  2498  2498 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:10:56.618  2498  2498 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:10:56.620  2498  2498 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:10:56.620  2498  2498 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:10:56.646  2498  2498 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:10:56.646  2498  2498 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:10:58.221  2493  2493 E Netd    : cannot find interface dummy0
+03-24 15:10:59.423  3059  3059 E art     : Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Only the zygote can create the global boot image.
+03-24 15:11:01.674  2485  2485 E SELinux : avc:  denied  { find } for service=media.audio_flinger scontext=u:r:kernel:s0 tcontext=u:object_r:mediaserver_service:s0 tclass=service_manager
+03-24 15:11:01.685  2498  2498 E audio_config: open dts file failed!
+03-24 15:11:01.685  2498  2498 E audio_config: get_audio_configs: get spk_pa_num_pro fail, set spk_pa_num_pro = none as default
+03-24 15:11:01.685  2498  2498 E audio_config: open dts file failed!
+03-24 15:11:01.685  2498  2498 E audio_config: get_audio_configs: get auxiliary_spk_pa_name fail, set auxiliary_spk_pa_name = none as default
+03-24 15:11:01.685  2498  2498 E audio_config: open dts file failed!
+03-24 15:11:01.685  2498  2498 E audio_config: get_audio_configs: get auxiliary_spk_pa_num_pro fail, set auxiliary_spk_pa_num_pro = none as default
+03-24 15:11:01.685  2498  2498 E audio_config: open dts file failed!
+03-24 15:11:01.685  2498  2498 E audio_config: get_audio_configs: get hs_pa_name fail, set hs_pa_name = none as default
+03-24 15:11:01.685  2498  2498 E audio_config: open dts file failed!
+03-24 15:11:01.685  2498  2498 E audio_config: get_audio_configs: get mic_name fail, set mic_name = none as default
+03-24 15:11:01.685  2498  2498 E audio_config: open dts file failed!
+03-24 15:11:01.685  2498  2498 W audio_config: get_audio_configs: get bwe function enable fail, set bwe function enable = 0 as default
+03-24 15:11:01.685  2498  2498 E audio_config: open dts file failed!
+03-24 15:11:01.685  2498  2498 W audio_config: get_audio_configs: get multi_mic function enable fail, set multi_mic  enable = 0 as default
+03-24 15:11:01.685  2498  2498 E audio_config: open dts file failed!
+03-24 15:11:01.685  2498  2498 E audio_config: get_audio_configs: get speaker_id_high name fail, set speaker_id_high name = none as default
+03-24 15:11:01.686  2498  2498 E audio_config: open dts file failed!
+03-24 15:11:01.686  2498  2498 E audio_config: get_audio_configs: get speaker_id_low name fail, set speaker_id_low name = none as default
+03-24 15:11:01.686  2498  2498 E         : rmt_oeminfo_read, connection fail
+03-24 15:11:01.686  2498  2498 E audio_config: get_extra_para: oeminfo is none
+03-24 15:11:01.708  2498  2498 E audio_route: Control 'RCV VIR_SWITCH RCV_EN' already exists in path 'dup-media-fm-earpiece'
+03-24 15:11:01.708  2498  2498 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker'
+03-24 15:11:01.708  2498  2498 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headset'
+03-24 15:11:01.708  2498  2498 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headphone'
+03-24 15:11:01.709  2498  2498 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-earpiece'
+03-24 15:11:01.709  2498  2498 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headset'
+03-24 15:11:01.709  2498  2498 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headphone'
+03-24 15:11:01.764  2498  2498 E         : rmt_oeminfo_read, connection fail
+03-24 15:11:01.764  2498  2498 E audio_config: get_extra_para: oeminfo is none
+03-24 15:11:01.794  2498  2498 E spk_dev_interface: get smartpa lib name error, use default
+03-24 15:11:01.794  2498  2498 W spk_dev_interface: Unknown device name, use default
+03-24 15:11:01.795  2498  2498 E spk_dev_interface: get auxiliary_spk lib name error
+03-24 15:11:01.795  2498  2498 E spk_dev_interface: load_hs_pa:get hs_pa lib name error, use default
+03-24 15:11:01.795  2498  2498 W spk_dev_interface: load_hs_pa:Unknown device name, use default
+03-24 15:11:01.801  2498  2498 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcbassboost.so
+03-24 15:11:01.802  2498  2498 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcvirt.so
+03-24 15:11:01.802  2498  2498 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcreverb.so
+03-24 15:11:01.803  2498  2498 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvisualizer.so
+03-24 15:11:01.805  2498  2498 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcompostprocbundle.so
+03-24 15:11:01.806  2498  2498 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvoiceprocessing.so
+03-24 15:11:01.835  2498  2498 W EffectsFactory: addSubEffect() could not get library qcbassboost
+03-24 15:11:01.835  2498  2498 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:11:01.835  2498  2498 W EffectsFactory: addSubEffect() could not get library qcvirt
+03-24 15:11:01.835  2498  2498 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:11:01.835  2498  2498 W EffectsFactory: addSubEffect() could not get library offload_bundle
+03-24 15:11:01.835  2498  2498 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:11:01.835  2498  2498 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:11:01.835  2498  2498 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:11:01.835  2498  2498 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:11:01.835  2498  2498 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:11:01.835  2498  2498 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:11:01.835  2498  2498 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:11:01.835  2498  2498 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:11:01.835  2498  2498 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:11:01.836  2498  2498 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+03-24 15:11:01.836  2498  2498 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:11:01.836  2498  2498 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:11:01.836  2498  2498 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:11:01.837  2498  3188 E AudioFlinger: no wake lock to update!
+03-24 15:11:01.845  2498  2498 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+03-24 15:11:01.847  2498  2498 E SoundTriggerHwService: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+03-24 15:11:01.848  2498  2498 E RadioService: couldn't load radio module radio.primary (No such file or directory)
+03-24 15:11:02.155  3059  3059 W art     : No image location found for Dex2Oat.
+03-24 15:11:05.261  3217  3217 E art     : Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Only the zygote can create the global boot image.
+03-24 15:11:07.381  3096  3096 W dex2oat : Method processed more than once: void android.icu.text.NumberFormat.<clinit>()
+03-24 15:11:07.642  3096  3096 W dex2oat : Method processed more than once: java.lang.String java.lang.AbstractStringBuilder.substring(int)
+03-24 15:11:07.722  3096  3096 W dex2oat : Method processed more than once: void java.util.Properties.load(java.io.Reader)
+03-24 15:11:07.793  3096  3096 W dex2oat : Method processed more than once: java.lang.String java.lang.IntegralToString.stringOf(char[])
+03-24 15:11:07.907  3217  3217 W art     : No image location found for Dex2Oat.
+03-24 15:11:07.932  3096  3096 W dex2oat : Method processed more than once: java.lang.String com.android.org.bouncycastle.util.Strings.toLowerCase(java.lang.String)
+03-24 15:11:08.914  3096  3199 W dex2oat : Method processed more than once: void android.text.TextUtils.<clinit>()
+03-24 15:11:08.952  3096  3199 W dex2oat : Method processed more than once: java.lang.String com.android.dex.Mutf8.decode(com.android.dex.util.ByteInput, char[])
+03-24 15:11:09.149  3240  3240 E art     : Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Only the zygote can create the global boot image.
+03-24 15:11:09.171  3096  3204 W dex2oat : Method processed more than once: void android.net.Uri.<clinit>()
+03-24 15:11:11.908  3240  3240 W art     : No image location found for Dex2Oat.
+03-24 15:11:13.524  3261  3261 E art     : Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Only the zygote can create the global boot image.
+03-24 15:11:15.724  3096  3203 W dex2oat : Compilation of boolean android.app.ActivityManagerNative.onTransact(int, android.os.Parcel, android.os.Parcel, int) took 205.640ms
+03-24 15:11:16.268  3261  3261 W art     : No image location found for Dex2Oat.
+03-24 15:11:16.378  3096  3204 W dex2oat : Compilation of boolean android.app.admin.IDevicePolicyManager$Stub.onTransact(int, android.os.Parcel, android.os.Parcel, int) took 122.198ms
+03-24 15:11:16.754  3246  3265 W dex2oat : Verification of boolean android.app.ActivityManagerNative.onTransact(int, android.os.Parcel, android.os.Parcel, int) took 143.175ms
+03-24 15:11:17.117  3261  3283 E art     : Thread attaching to non-existent runtime: Binder_1
+03-24 15:11:17.286  3246  3267 W dex2oat : Verification of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int) took 100.910ms
+03-24 15:11:17.600  3246  3262 W dex2oat : Verification of void android.os.BatteryStats.dumpLocked(android.content.Context, java.io.PrintWriter, java.lang.String, int, int, boolean) took 118.322ms
+03-24 15:11:17.931  3286  3286 E art     : Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Only the zygote can create the global boot image.
+03-24 15:11:18.007  3096  3203 W dex2oat : Compilation of void android.os.BatteryStats.dumpLocked(android.content.Context, java.io.PrintWriter, java.lang.String, int, int, boolean) took 102.762ms
+03-24 15:11:19.258  3096  3204 W dex2oat : Compilation of boolean android.content.IContentService$Stub.onTransact(int, android.os.Parcel, android.os.Parcel, int) took 102.050ms
+03-24 15:11:20.747  3286  3286 W art     : No image location found for Dex2Oat.
+03-24 15:11:21.491  3286  3301 E art     : Thread attaching while runtime is shutting down: Binder_1
+03-24 15:11:21.492  3246  3268 W dex2oat : Method processed more than once: void android.icu.text.NumberFormat.<clinit>()
+03-24 15:11:21.878  3246  3268 W dex2oat : Method processed more than once: java.lang.String java.lang.AbstractStringBuilder.substring(int)
+03-24 15:11:21.962  3246  3268 W dex2oat : Method processed more than once: void java.util.Properties.load(java.io.Reader)
+03-24 15:11:22.036  3246  3268 W dex2oat : Method processed more than once: java.lang.String java.lang.IntegralToString.stringOf(char[])
+03-24 15:11:22.183  3246  3268 W dex2oat : Method processed more than once: java.lang.String com.android.org.bouncycastle.util.Strings.toLowerCase(java.lang.String)
+03-24 15:11:22.353  3311  3311 E art     : Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Only the zygote can create the global boot image.
+03-24 15:11:23.257  3246  3246 W dex2oat : Method processed more than once: void android.text.TextUtils.<clinit>()
+03-24 15:11:23.301  3246  3246 W dex2oat : Method processed more than once: java.lang.String com.android.dex.Mutf8.decode(com.android.dex.util.ByteInput, char[])
+03-24 15:11:23.557  3246  3262 W dex2oat : Method processed more than once: void android.net.Uri.<clinit>()
+03-24 15:11:25.152  3311  3311 W art     : No image location found for Dex2Oat.
+03-24 15:11:25.843  3246  3264 W dex2oat : Compilation of void android.icu.text.DecimalFormat.applyPatternWithoutExpandAffix(java.lang.String, boolean) took 188.007ms
+03-24 15:11:26.531  3096  3201 W dex2oat : Compilation of void com.android.internal.telephony.uicc.SIMRecords.handleMessage(android.os.Message) took 201.360ms
+03-24 15:11:27.477  3350  3350 E art     : Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Only the zygote can create the global boot image.
+03-24 15:11:30.290  3350  3350 W art     : No image location found for Dex2Oat.
+03-24 15:11:31.090  3246  3266 W dex2oat : Compilation of boolean android.app.ActivityManagerNative.onTransact(int, android.os.Parcel, android.os.Parcel, int) took 171.349ms
+03-24 15:11:31.679  3246  3262 W dex2oat : Compilation of boolean android.app.admin.IDevicePolicyManager$Stub.onTransact(int, android.os.Parcel, android.os.Parcel, int) took 167.902ms
+03-24 15:11:31.860  3370  3370 E art     : Could not create image space with image file '/system/framework/boot.art'. Attempting to fall back to imageless running. Error was: Only the zygote can create the global boot image.
+03-24 15:11:32.680  3246  3262 W dex2oat : Compilation of void android.os.BatteryStats.dumpLocked(android.content.Context, java.io.PrintWriter, java.lang.String, int, int, boolean) took 104.099ms
+03-24 15:11:34.769  3370  3370 W art     : No image location found for Dex2Oat.
+03-24 15:11:36.251  3390  3390 W art     : 7049f000-712ef000 rw-p 00000000 103:08 537511                            /data/dalvik-cache/arm64/system@framework@boot.art
+03-24 15:11:36.252  3390  3390 W art     : 5567f79000-5567f88000 r-xp 00000000 103:06 33067                         /system/bin/app_process64_xposed
+03-24 15:11:36.252  3390  3390 W art     : 5567f98000-5567f9b000 r--p 0000f000 103:06 33067                         /system/bin/app_process64_xposed
+03-24 15:11:36.252  3390  3390 W art     : 5567f9b000-5567f9c000 rw-p 00012000 103:06 33067                         /system/bin/app_process64_xposed
+03-24 15:11:36.252  3390  3390 W art     : 7faf54a000-7fb1a10000 r--p 00000000 103:08 537508                        /data/dalvik-cache/arm64/system@framework@boot.oat
+03-24 15:11:36.252  3390  3390 W art     : 7fb1a10000-7fb4194000 r-xp 024c6000 103:08 537508                        /data/dalvik-cache/arm64/system@framework@boot.oat
+03-24 15:11:36.252  3390  3390 W art     : 7fb4194000-7fb4195000 rw-p 04c4a000 103:08 537508                        /data/dalvik-cache/arm64/system@framework@boot.oat
+03-24 15:11:36.252  3390  3390 W art     : 7fb4195000-7fb41c0000 r--p 00e50000 103:08 537511                        /data/dalvik-cache/arm64/system@framework@boot.art
+03-24 15:11:36.252  3390  3390 W art     : 7fb41c0000-7fb4200000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+03-24 15:11:36.252  3390  3390 W art     : 7fb4221000-7fb4222000 r-xp 00000000 103:06 41375                         /system/lib64/libsigchain.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb4222000-7fb4231000 ---p 00000000 00:00 0 
+03-24 15:11:36.252  3390  3390 W art     : 7fb4231000-7fb4232000 r--p 00000000 103:06 41375                         /system/lib64/libsigchain.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb4232000-7fb4233000 rw-p 00001000 103:06 41375                         /system/lib64/libsigchain.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb4233000-7fb4819000 r-xp 00000000 103:06 41372                         /system/lib64/libart.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb4819000-7fb4828000 ---p 00000000 00:00 0 
+03-24 15:11:36.252  3390  3390 W art     : 7fb4828000-7fb483b000 r--p 005f0000 103:06 41372                         /system/lib64/libart.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb483b000-7fb483d000 rw-p 00603000 103:06 41372                         /system/lib64/libart.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb483d000-7fb4840000 rw-p 00000000 00:00 0 
+03-24 15:11:36.252  3390  3390 W art     : 7fb4840000-7fb4b00000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+03-24 15:11:36.252  3390  3390 W art     : 7fb4b03000-7fb4b06000 r--p 00000000 00:00 0 
+03-24 15:11:36.252  3390  3390 W art     : 7fb4b06000-7fb4b26000 r--s 00000000 00:0e 8045                           /dev/__properties__
+03-24 15:11:36.252  3390  3390 W art     : 7fb4b26000-7fb4b27000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+03-24 15:11:36.252  3390  3390 W art     : 7fb4b27000-7fb4b28000 r--p 00000000 00:00 0 
+03-24 15:11:36.252  3390  3390 W art     : 7fb4b28000-7fb4b29000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+03-24 15:11:36.252  3390  3390 W art     : 7fb4b29000-7fb5a40000 r-xp 00000000 103:06 41009                         /system/lib64/libLLVM.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5a40000-7fb5a50000 ---p 00000000 00:00 0 
+03-24 15:11:36.252  3390  3390 W art     : 7fb5a50000-7fb5aeb000 r--p 00f24000 103:06 41009                         /system/lib64/libLLVM.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5aeb000-7fb5aef000 rw-p 00fbf000 103:06 41009                         /system/lib64/libLLVM.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5aef000-7fb5afd000 rw-p 00000000 00:00 0 
+03-24 15:11:36.252  3390  3390 W art     : 7fb5afd000-7fb5b47000 r-xp 00000000 103:06 41070                         /system/lib64/libbcinfo.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5b47000-7fb5b57000 ---p 00000000 00:00 0 
+03-24 15:11:36.252  3390  3390 W art     : 7fb5b57000-7fb5b58000 r--p 0004a000 103:06 41070                         /system/lib64/libbcinfo.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5b58000-7fb5b59000 rw-p 0004b000 103:06 41070                         /system/lib64/libbcinfo.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5b59000-7fb5b5a000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.252  3390  3390 W art     : 7fb5b5a000-7fb5bbb000 r-xp 00000000 103:06 41069                         /system/lib64/libbcc.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5bbb000-7fb5bca000 ---p 00000000 00:00 0 
+03-24 15:11:36.252  3390  3390 W art     : 7fb5bca000-7fb5bcc000 r--p 00061000 103:06 41069                         /system/lib64/libbcc.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5bcc000-7fb5bcd000 rw-p 00063000 103:06 41069                         /system/lib64/libbcc.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5bcd000-7fb5bce000 r--p 00000000 00:00 0 
+03-24 15:11:36.252  3390  3390 W art     : 7fb5bce000-7fb5bda000 r-xp 00000000 103:06 41090                         /system/lib64/libcommon_time_client.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5bda000-7fb5be9000 ---p 00000000 00:00 0 
+03-24 15:11:36.252  3390  3390 W art     : 7fb5be9000-7fb5bee000 r--p 0000f000 103:06 41090                         /system/lib64/libcommon_time_client.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5bee000-7fb5bef000 rw-p 00014000 103:06 41090                         /system/lib64/libcommon_time_client.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5bef000-7fb5c12000 r-xp 00000000 103:06 41248                         /system/lib64/libprotobuf-cpp-lite.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5c12000-7fb5c22000 ---p 00000000 00:00 0 
+03-24 15:11:36.252  3390  3390 W art     : 7fb5c22000-7fb5c23000 r--p 00023000 103:06 41248                         /system/lib64/libprotobuf-cpp-lite.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5c23000-7fb5c24000 rw-p 00024000 103:06 41248                         /system/lib64/libprotobuf-cpp-lite.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5c24000-7fb5c2e000 r-xp 00000000 103:06 41288                         /system/lib64/libstagefright_avc_common.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5c2e000-7fb5c3d000 ---p 00000000 00:00 0 
+03-24 15:11:36.252  3390  3390 W art     : 7fb5c3d000-7fb5c3e000 r--p 00009000 103:06 41288                         /system/lib64/libstagefright_avc_common.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5c3e000-7fb5c3f000 rw-p 0000a000 103:06 41288                         /system/lib64/libstagefright_avc_common.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5c3f000-7fb5c40000 r-xp 00000000 103:06 41289                         /system/lib64/libstagefright_enc_common.so
+03-24 15:11:36.252  3390  3390 W art     : 7fb5c40000-7fb5c4f000 ---p 00000000 00:00 0 
+03-24 15:11:36.253  3390  3390 W art     : 7fb5c4f000-7fb5c50000 r--p 00000000 103:06 41289                         /system/lib64/libstagefright_enc_common.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5c50000-7fb5c51000 rw-p 00001000 103:06 41289                         /system/lib64/libstagefright_enc_common.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5c51000-7fb5c54000 r-xp 00000000 103:06 41245                         /system/lib64/libpowermanager.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5c54000-7fb5c64000 ---p 00000000 00:00 0 
+03-24 15:11:36.253  3390  3390 W art     : 7fb5c64000-7fb5c65000 r--p 00003000 103:06 41245                         /system/lib64/libpowermanager.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5c65000-7fb5c66000 rw-p 00004000 103:06 41245                         /system/lib64/libpowermanager.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5c66000-7fb5c83000 r-xp 00000000 103:06 41339                         /system/lib64/libvorbisidec.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5c83000-7fb5c92000 ---p 00000000 00:00 0 
+03-24 15:11:36.253  3390  3390 W art     : 7fb5c92000-7fb5c93000 r--p 0001c000 103:06 41339                         /system/lib64/libvorbisidec.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5c93000-7fb5c94000 rw-p 0001d000 103:06 41339                         /system/lib64/libvorbisidec.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5c94000-7fb5c95000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.253  3390  3390 W art     : 7fb5c95000-7fb5c98000 r-xp 00000000 103:06 41313                         /system/lib64/libstagefright_yuv.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5c98000-7fb5ca7000 ---p 00000000 00:00 0 
+03-24 15:11:36.253  3390  3390 W art     : 7fb5ca7000-7fb5ca8000 r--p 00002000 103:06 41313                         /system/lib64/libstagefright_
+03-24 15:11:36.253  3390  3390 W art     : yuv.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5ca8000-7fb5ca9000 rw-p 00003000 103:06 41313                         /system/lib64/libstagefright_yuv.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5ca9000-7fb5cdf000 r-xp 00000000 103:06 41292                         /system/lib64/libstagefright_omx.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5cdf000-7fb5cee000 ---p 00000000 00
+03-24 15:11:36.253  3390  3390 W art     : :00 0 
+03-24 15:11:36.253  3390  3390 W art     : 7fb5cee000-7fb5cf4000 r--p 0003b000 103:06 41292                         /system/lib64/libstagefright_omx.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5cf4000-7fb5cf5000 rw-p 00041000 103:06 41292                         /system/lib64/libstagefright_omx.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5cf5000-7fb5d40000 r-xp 00000000 10
+03-24 15:11:36.253  3390  3390 W art     : 3:06 41233                         /system/lib64/libopus.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5d40000-7fb5d50000 ---p 00000000 00:00 0 
+03-24 15:11:36.253  3390  3390 W art     : 7fb5d50000-7fb5d51000 r--p 0004b000 103:06 41233                         /system/lib64/libopus.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5d51000-7fb5d52000 rw-p 0004c000 103:06 41233                         /system/lib64/libopus.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5d52000-7fb5d59000 r-xp 00000000 103:06 41187                         /system/lib64/libmediautils.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5d59000-7fb5d68000 ---p 00000000 00:00 0 
+03-24 15:11:36.253  3390  3390 W art     : 7fb5d68000-7fb5d6a000 r--p 00007000 103:06 41187                         /system/lib64/libmediautils.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5d6a000-7fb5d6b000 rw-p 00009000 103:06 41187                         /system/lib64/libmediautils.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5d6b000-7fb5d6c000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.253  3390  3390 W art     : 7fb5d6c000-7fb5d89000 r-xp 00000000 103:06 41104                         /system/lib64/libdrmframework.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5d89000-7fb5d98000 ---p 00000000 00:00 0 
+03-24 15:11:36.253  3390  3390 W art     : 7fb5d98000-7fb5d9d000 r--p 00021000 103:06 41104                         /system/lib64/libdrmframework.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5d9d000-7fb5d9e000 rw-p 00026000 103:06 41104                         /system/lib64/libdrmframework.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5d9e000-7fb5dc7000 r-xp 00000000 103:06 41020                         /system/lib64/libRScpp.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5dc7000-7fb5dd7000 ---p 00000000 00:00 0 
+03-24 15:11:36.253  3390  3390 W art     : 7fb5dd
+03-24 15:11:36.253  3390  3390 W art     : 7000-7fb5dd8000 r--p 00029000 103:06 41020                         /system/lib64/libRScpp.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5dd8000-7fb5dd9000 rw-p 0002a000 103:06 41020                         /system/lib64/libRScpp.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5dd9000-7fb5dda000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+03-24 15:11:36.253  3390  3390 W art     : 7fb5dda000-7fb5e2d000 r-xp 00000000 103:06 41016                         /system/lib64/libRS.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5e2d000-7fb5e3c000 ---p 00000000 00:00 0 
+03-24 15:11:36.253  3390  3390 W art     : 7fb5e3c000-7fb5e3f000 r--p 00055000 103:06 41016                         /system/lib64/libRS.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5e3f000-7fb5e40000 rw-p 00058000 103:06 41016                         /system/lib64/libRS.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5e40000-7fb5e43000 r-xp 00000000 103:06 41281                         /system/lib64/libspeexresampler.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5e43000-7fb5e52000 ---p 00000000 00:00 0 
+03-24 15:11:36.253  3390  3390 W art     : 7fb5e52000-7fb5e53000 r--p 00002000 103:06 41281                         /system/lib64/libspeexresampler.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5e53000-7fb5e54000 rw-p 00003000 103:06 41281                         /system/lib64/libspeexresampler.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5e54000-7fb5e5f000 r-xp 00000000 103:06 41209                         /system/lib64/libnbaio.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5e5f000-7fb5e6f000 ---p 00000000 00:00 0 
+03-24 15:11:36.253  3390  3390 W art     : 7fb5e6f000-7fb5e70000 r--p 0000b000 103:06 41209                         /system/lib64/libnbaio.so
+03-24 15:11:36.253  3390  3390 W art     : 7fb5e70000-7fb5e71000 rw-p 0000c000 103:06 41209                         /system/lib64/libnbaio.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb5e71000-7fb5e72000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.254  3390  3390 W art     : 7fb5e72000-7fb5e76000 r-xp 00000000 103:06 41353                         /system/lib64/libwpa_client.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb5e76000-7fb5e86000 ---p 00000000 00:00 0 
+03-24 15:11:36.254  3390  3390 W art     : 7fb5e86000-7fb5e87000 r--p 00004000 103:06 41353                         /system/lib64/libwpa_client.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb5e87000-7fb5e88000 rw-p 00005000 103:06 41353                         /system/lib64/libwpa_client.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb5e88000-7fb5e89000 rw-p 00000000 00:00 0                              [anon:linker_alloc_64]
+03-24 15:11:36.254  3390  3390 W art     : 7fb5e89000-7fb5f56000 r-xp 00000000 103:06 41004                         /system/lib64/libGLES_trace.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb5f56000-7fb5f57000 r--p 000d0000 103:06 41004                         /system/lib64/libGLES_trace.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb5f57000-7fb5f59000 rw-p 000d1000 103:06 41004                         /system/lib64/libGLES_trace.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb5f59000-7fb5fc7000 r-xp 00000000 103:06 41129                         /system/lib64/libft2.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb5fc7000-7fb5fd6000 ---p 00000000 00:00 0 
+03-24 15:11:36.254  3390  3390 W art     : 7fb5fd6000-7fb5fd9000 r--p 0006f000 103:06 41129                         /system/lib64/libft2.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb5fd9000-7fb5fda000 rw-p 00072000 103:06 41129                         /system/lib64/libft2.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb5fda000-7fb600c000 r-xp 00000000 103:06 41242                         /system/lib64/libpng.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb600c000-7fb601b000 ---p 00000000 00:00 0 
+03-24 15:11:36.254  3390  3390 W art     : 7fb601b000-7fb601c000 r--p 00031000 103:06 41242                         /system/lib64/libpng.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb601c000-7fb601d000 rw-p 00032000 103:06 41242                         /system/lib64/libpng.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb601d000-7fb601e000 r-xp 00000000 103:06 41319                         /system/lib64/libsync.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb601e000-7fb602d000 ---p 00000000 00:00 0 
+03-24 15:11:36.254  3390  3390 W art     : 7fb602d000-7fb602e000 r--p 00000000 103:06 41319                         /system/lib64/libsync.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb602e000-7fb602f000 rw-p 00001000 103:06 41319                         /system/lib64/libsync.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb602f000-7fb6032000 r-xp 00000000 103:06 41314                         /system/lib64/libstdc++.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb6032000-7fb6041000 ---p 00000000 00:00 0 
+03-24 15:11:36.254  3390  3390 W art     : 7fb6041000-7fb6042000 r--p 00002000 103:06 41314                         /system/lib64/libstdc++.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb6042000-7fb6043000 rw-p 00003000 103:06 41314                         /system/lib64/libstdc++.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb6043000-7fb6044000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.254  3390  3390 W art     : 7fb6044000-7fb605f000 r-xp 00000000 103:06 41332                         /system/lib64/libunwind.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb605f000-7fb606e000 ---p 00000000 00:00 0 
+03-24 15:11:36.254  3390  3390 W art     : 7fb606e000-7fb606f000 r--p 0001a000 103:06 41332                         /system/lib64/libunwind.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb606f000-7fb6070000 rw-p 0001b000 103:06 41332                         /system/lib64/libunwind.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb6070000-7fb60d9000 rw-p 00000000 00:00 0 
+03-24 15:11:36.254  3390  3390 W art     : 7fb60d9000-7fb60e2000 r-xp 00000000 103:06 41068                         /system/lib64/libbase.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb60e2000-7fb60f1000 ---p 00000000 00:00 0 
+03-24 15:11:36.254  3390  3390 W art     : 7fb60f1000-7fb60f2000 r--p 00008000 103:06 41068                         /system/lib64/libbase.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb60f2000-7fb60f3000 rw-p 00009000 103:06 41068                         /system/lib64/libbase.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb60f3000-7fb60f4000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.254  3390  3390 W art     : 7fb60f4000-7fb60f8000 r-xp 00000000 103:06 41109                         /system/lib64/libeffects.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb60f8000-7fb6107000 ---p 00000000 00:00 0 
+03-24 15:11:36.254  3390  3390 W art     : 7fb6107000-7fb6108000 r--p 00003000 103:06 41109                         /system/lib64/libeffects.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb6108000-7fb6109000 rw-p 00004000 103:06 41109                         /system/lib64/libeffects.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb6109000-7fb610b000 r-xp 00000000 103:06 41291                         /system/lib64/libstagefright_http_support.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb610b000-7fb611a000 ---p 00000000 00:00 0 
+03-24 15:11:36.254  3390  3390 W art     : 7fb611a000-7fb611b000 r--p 00001000 103:06 41291                         /system/lib64/libstagefright_http_support.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb611b000-7fb611c000 rw-p 00002000 103:06 41291                         /system/lib64/libstagefright_http_support.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb611c000-7fb613a000 r-xp 00000000 103:06 41290                         /system/lib64/libstagefright_foundation.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb613a000-7fb614a000 ---p 00000000 00:00 0 
+03-24 15:11:36.254  3390  3390 W art     : 7fb614a000-7fb614d000 r--p 0001f000 103:06 41290                         /system/lib64/libstagefright_foundation.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb614d000-7fb614e000 rw-p 00022000 103:06 41290                         /system/lib64/libstagefright_foundation.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb614e000-7fb62fa000 r-xp 00000000 103:06 41286                         /system/lib64/libstagefright.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb62fa000-7fb630a000 ---p 00000000 00:00 0 
+03-24 15:11:36.254  3390  3390 W art     : 7fb630a000-7fb631f000 r--p 001b7000 103:06 41286                         /system/lib64/libstagefright.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb631f000-7fb6320000 rw-p 001cc000 103:06 41286                         /system/lib64/libstagefright.so
+03-24 15:11:36.254  3390  3390 W art     : 7fb6320000-7fb633a000 r-xp 00000000 103:06 412
+03-24 15:11:36.254  3390  3390 W art     : 38                         /system/lib64/libpcre.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb633a000-7fb6349000 ---p 00000000 00:00 0 
+03-24 15:11:36.255  3390  3390 W art     : 7fb6349000-7fb634a000 r--p 00019000 103:06 41238                         /system/lib64/libpcre.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb634a000-7fb634b000 rw-p 0001a000 103:06 41238                         /system/lib64/libpcre.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb634b000-7fb63df000 r-xp 00000000 103:06 41151                         /system/lib64/libhwui.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb63df000-7fb63ef000 ---p 00000000 00:00 0 
+03-24 15:11:36.255  3390  3390 W art     : 7fb63ef000-7fb63f5000 r--p 0009b000 103:06 41151                         /system/lib64/libhwui.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb63f5000-7fb63f6000 rw-p 000a1000 103:06 41151                         /system/lib64/libhwui.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb63f6000-7fb63f7000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.255  3390  3390 W art     : 7fb63f7000-7fb63f9000 r-xp 00000000 103:06 41250                         /system/lib64/libradio_metadata.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb63f9000-7fb6408000 ---p 00000000 00:00 0 
+03-24 15:11:36.255  3390  3390 W art     : 7fb6408000-7fb6409000 r--p 00001000 103:06 41250                         /system/lib64/libradio_metadat
+03-24 15:11:36.255  3390  3390 W art     : a.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6409000-7fb640a000 rw-p 00002000 103:06 41250                         /system/lib64/libradio_metadata.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb640a000-7fb640d000 r-xp 00000000 103:06 41207                         /system/lib64/libnativebridge.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb640d000-7fb641c000 ---p 00000000 00:00 
+03-24 15:11:36.255  3390  3390 W art     : 0 
+03-24 15:11:36.255  3390  3390 W art     : 7fb641c000-7fb641d000 r--p 00002000 103:06 41207                         /system/lib64/libnativebridge.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb641d000-7fb641e000 rw-p 00003000 103:06 41207                         /system/lib64/libnativebridge.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb641e000-7fb6420000 r-xp 00000000 103:06 4
+03-24 15:11:36.255  3390  3390 W art     : 1247                         /system/lib64/libprocessgroup.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6420000-7fb642f000 ---p 00000000 00:00 0 
+03-24 15:11:36.255  3390  3390 W art     : 7fb642f000-7fb6430000 r--p 00001000 103:06 41247                         /system/lib64/libprocessgroup.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6430000-7fb6431000 rw-p 00002000 103:06 41247                         /system/lib64/libprocessgroup.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6431000-7fb6446000 r-xp 00000000 103:06 41191                         /system/lib64/libminikin.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6446000-7fb6456000 ---p 00000000 00:00 0 
+03-24 15:11:36.255  3390  3390 W art     : 7fb6456000-7fb6458000 r--p 00015000 103:06 41191                         /system/lib64/libminikin.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb645800
+03-24 15:11:36.255  3390  3390 W art     : 0-7fb6459000 rw-p 00017000 103:06 41191                         /system/lib64/libminikin.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6459000-7fb6463000 r-xp 00000000 103:06 41278                         /system/lib64/libsoundtrigger.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6463000-7fb6472000 ---p 00000000 00:00 0 
+03-24 15:11:36.255  3390  3390 W art     : 7fb6472000-7fb6477000 r--p 0000d000 103:06 41278                         /system/lib64/libsoundtrigger.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6477000-7fb6478000 rw-p 00012000 103:06 41278                         /system/lib64/libsoundtrigger.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6478000-7fb6482000 r-xp 00000000 103:06 41249                         /system/lib64/libradio.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6482000-7fb6491000 ---p 00000000 00:00 0 
+03-24 15:11:36.255  3390  3390 W art     : 7fb649
+03-24 15:11:36.255  3390  3390 W art     : 1000-7fb6495000 r--p 0000d000 103:06 41249                         /system/lib64/libradio.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6495000-7fb6496000 rw-p 00011000 103:06 41249                         /system/lib64/libradio.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6496000-7fb6498000 r-xp 00000000 103:06 41210                         /system/lib64/libnetd_client.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6498000-7fb64a7000 ---p 00000000 00:00 0 
+03-24 15:11:36.255  3390  3390 W art     : 7fb64a7000-7fb64a8000 r--p 00001000 103:06 41210                         /system/lib64/libnetd_client.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb64a8000-7fb64a9000 rw-p 00002000 103:06 41210                         /system/lib64/libnetd_client.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb64a9000-7fb64bc000 r-xp 00000000 103:06 41155                         /system/lib64/libimg_utils.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb64bc000-7fb64cb000 ---p 00000000 00:00 0 
+03-24 15:11:36.255  3390  3390 W art     : 7fb64cb000-7fb64ce000 r--p 00013000 103:06 41155                         /system/lib64/libimg_utils.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb64ce000-7fb64cf000 rw-p 00016000 103:06 41155                         /system/lib64/libimg_utils.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb64cf000-7fb68f3000 r-xp 00000000 103:06 41239                         /system/lib64/libpdfium.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb68f3000-7fb6902000 ---p 00000000 00:00 0 
+03-24 15:11:36.255  3390  3390 W art     : 7fb6902000-7fb6913000 r--p 00428000 103:06 41239                         /system/lib64/libpdfium.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6913000-7fb6918000 rw-p 00439000 103:06 41239                         /system/lib64/libpdfium.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6918000-7fb6919000 rw-p 00000000 00:00 0 
+03-24 15:11:36.255  3390  3390 W art     : 7fb6919000-7fb6923000 r-xp 00000000 103:06 41052                         /system/lib64/libaudioutils.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6923000-7fb6933000 ---p 00000000 00:00 0 
+03-24 15:11:36.255  3390  3390 W art     : 7fb6933000-7fb6934000 r--p 0000a000 103:06 41052                         /system/lib64/libaudioutils.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6934000-7fb6935000 rw-p 0000b000 103:06 41052                         /system/lib64/libaudioutils.so
+03-24 15:11:36.255  3390  3390 W art     : 7fb6935000-7fb6936000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.256  3390  3390 W art     : 7fb6936000-7fb6952000 r-xp 00000000 103:06 41360                         /system/lib64/libz.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6952000-7fb6961000 ---p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb6961000-7fb6962000 r--p 0001b000 103:06 41360                         /system/lib64/libz.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6962000-7fb6963000 rw-p 0001c000 103:06 41360                         /system/lib64/libz.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6963000-7fb69b2000 r-xp 00000000 103:06 41140                         /system/lib64/libharfbuzz_ng.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb69b2000-7fb69c2000 ---p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb69c2000-7fb69c3000 r--p 0004f000 103:06 41140                         /system/lib64/libharfbuzz_ng.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb69c3000-7fb69c4000 rw-p 00050000 103:06 41140                         /system/lib64/libharfbuzz_ng.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb69c4000-7fb69c5000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.256  3390  3390 W art     : 7fb69c5000-7fb69c9000 r-xp 00000000 103:06 41334                         /system/lib64/libusbhost.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb69c9000-7fb69d8000 ---p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb69d8000-7fb69d9000 r--p 00003000 103:06 41334                         /system/lib64/libusbhost.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb69d9000-7fb69da000 rw-p 00004000 103:06 41334                         /system/lib64/libusbhost.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb69da000-7fb6a10000 r-xp 00000000 103:06 41172                         /system/lib64/libjpeg.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6a10000-7fb6a20000 ---p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb6a20000-7fb6a21000 r--p 00036000 103:06 41172                         /system/lib64/libjpeg.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6a21000-7fb6a22000 rw-p 00037000 103:06 41172                         /system/lib64/libjpeg.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6a22000-7fb6ae7000 r-xp 00000000 103:06 41184                         /system/lib64/libmedia.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6ae7000-7fb6af7000 ---p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb6af7000-7fb6b2b000 r--p 000ce000 103:06 41184                         /system/lib64/libmedia.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6b2b000-7fb6b2c000 rw-p 00102000 103:06 41184                         /system/lib64/libmedia.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6b2c000-7fb6d48000 r-xp 00000000 103:06 41152                         /system/lib64/libicui18n.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6d48000-7fb6d58000 ---p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb6d58000-7fb6d6c000 r--p 00226000 103:06 41152                         /system/lib64/libicui18n.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6d6c000-7fb6d6d000 rw-p 0023a000 103:06 41152                         /system/lib64/libicui18n.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6d6d000-7fb6ef0000 r-xp 00000000 103:06 41153                         /system/lib64/libicuuc.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6ef0000-7fb6f00000 ---p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb6f00000-7fb6f12000 r--p 0018c000 103:06 41153                         /system/lib64/libicuuc.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6f12000-7fb6f13000 rw-p 0019e000 103:06 41153                         /system/lib64/libicuuc.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6f13000-7fb6f17000 rw-p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb6f17000-7fb6f51000 r-xp 00000000 103:06 41284                         /system/lib64/libssl.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6f51000-7fb6f61000 ---p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb6f61000-7fb6f63000 r--p 0003a000 103:06 41284                         /system/lib64/libssl.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6f63000-7fb6f64000 rw-p 0003c000 103:06 41284                         /system/lib64/libssl.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb6f65000-7fb7067000 r-xp 00000000 103:06 41094                         /system/lib64/libcrypto.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb7067000-7fb7076000 ---p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb7076000-7fb708a000 r--p 00101000 103:06 41094                         /system/lib64/libcrypto.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb708a000-7fb708b000 rw-p 00115000 103:06 41094                         /system/lib64/libcrypto.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb708b000-7fb70e3000 r-xp 00000000 103:06 41276                         /system/lib64/libsonivox.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb70e3000-7fb70f3000 ---p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb70f3000-7fb70f4000 r--p 00058000 103:06 41276                         /system/lib64/libsonivox.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb70f4000-7fb70f5000 rw-p 00059000 103:06 41276                         /system/lib64/libsonivox.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb70f5000-7fb70f6000 rw-p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb70f6000-7fb70fc000 r-xp 00000000 103:06 41139                         /system/lib64/libhardware_legacy.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb70fc000-7fb710c000 ---p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb710c000-7fb710d000 r--p 00006000 103:06 41139                         /system/lib64/libhardware_legacy.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb710d000-7fb710e000 rw-p 00007000 103:06 41139                         /system/lib64/libhardware_legacy.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb710e000-7fb710f000 rw-p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb710f000-7fb7111000 r-xp 00000000 103:06 41138                         /system/lib64/libhardware.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb7111000-7fb7120000 ---p 00000000 00:00 0 
+03-24 15:11:36.256  3390  3390 W art     : 7fb7120000-7fb7122000 r--p 00001000 103:06 41138                         /system/lib64/libhardware.so
+03-24 15:11:36.256  3390  3390 W art     : 7fb7122000-7fb7123000 rw-p 00003000 103:06 41138                         /system/lib64/libhardware.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7123000-7fb7126000 r-xp 00000000 103:06 41002                         /system/lib64/libETC1.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7126000-7fb7136000 ---p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb7136000-7fb7137000 r--p 00003000 103:06 41002                         /system/lib64/libETC1.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7137000-7fb7138000 rw-p 00004000 103:06 41002                         /system/lib64/libETC1.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7138000-7fb7148000 r-xp 00000000 103:06 41006                         /system/lib64/libGLESv2.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7148000-7fb7157000 ---p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb7157000-7fb7158000 r--p 0000f000 103:06 41006                         /system/lib64/libGLESv2.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7158000-7fb7159000 rw-p 00010000 103:06 41006                         /system/lib64/libGLESv2.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7159000-7fb7162000 r-xp 00000000 103:06 41005                         /system/lib64/libGLESv1_CM.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7162000-7fb7171000 ---p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb7171000-7fb7172000 r--p 00008000 103:06 41005                         /system/lib64/libGLESv1_CM.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7172000-7fb7173000 rw-p 00009000 103:06 41005                         /system/lib64/libGLESv1_CM.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7173000-7fb7236000 r-xp 00000000 103:06 41001                         /system/lib64/libEGL.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7236000-7fb7245000 ---p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb7245000-7fb7249000 r--p 000cb000 103:06 41001                         /system/lib64/libEGL.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7249000-7fb7255000 rw-p 000cf000 103:06 41001                         /system/lib64/libEGL.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7255000-7fb725b000 rw-p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb725b000-7fb725c000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.257  3390  3390 W art     : 7fb725c000-7fb7316000 r-xp 00000000 103:06 41282                         /system/lib64/libsqlite.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7316000-7fb7326000 ---p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb7326000-7fb7328000 r--p 000bd000 103:06 41282                         /system/lib64/libsqlite.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7328000-7fb732a000 rw-p 000bf000 103:06 41282                         /system/lib64/libsqlite.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb732a000-7fb732b000 rw-p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb732b000-7fb77cd000 r-xp 00000000 103:06 41271                         /system/lib64/libskia.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb77cd000-7fb77dd000 ---p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb77dd000-7fb780e000 r--p 004a3000 103:06 41271                         /system/lib64/libskia.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb780e000-7fb7810000 rw-p 004d4000 103:06 41271                         /system/lib64/libskia.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7810000-7fb7819000 rw-p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb7819000-7fb7821000 r-xp 00000000 103:06 41084                         /system/lib64/libcamera_metadata.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7821000-7fb7831000 ---p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb7831000-7fb7832000 r--p 00009000 103:06 41084                         /system/lib64/libcamera_metadata.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7832000-7fb7833000 rw-p 0000a000 103:06 41084                         /system/lib64/libcamera_metadata.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7833000-7fb7834000 rw-p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb7834000-7fb7867000 r-xp 00000000 103:06 41083                         /system/lib64/libcamera_client.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7867000-7fb7876000 ---p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb7876000-7fb7881000 r--p 0003f000 103:06 41083                         /system/lib64/libcamera_client.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7881000-7fb7882000 rw-p 0004a000 103:06 41083                         /system/lib64/libcamera_client.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7882000-7fb78d7000 r-xp 00000000 103:06 41157                         /system/lib64/libinputflinger.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb78d7000-7fb78e7000 ---p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb78e7000-7fb78eb000 r--p 00059000 103:06 41157                         /system/lib64/libinputflinger.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb78eb000-7fb78ec000 rw-p 0005d000 103:06 41157                         /system/lib64/libinputflinger.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb78ec000-7fb78ed000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.257  3390  3390 W art     : 7fb78ed000-7fb7911000 r-xp 00000000 103:06 41156                         /system/lib64/libinput.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7911000-7fb7921000 ---p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb7921000-7fb7927000 r--p 0002a000 103:06 41156                         /system/lib64/libinput.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7927000-7fb7928000 rw-p 00030000 103:06 41156                         /system/lib64/libinput.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb7928000-7fb798f000 r-xp 00000000 103:06 41137                         /system/lib64/libgui.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb798f000-7fb799e000 ---p 00000000 00:00 0 
+03-24 15:11:36.257  3390  3390 W art     : 7fb799e000-7fb79b4000 r--p 00069000 103:06 41137                         /system/lib64/libgui.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb79b4000-7fb79b5000 rw-p 0007f000 103:06 41137                         /system/lib64/libgui.so
+03-24 15:11:36.257  3390  3390 W art     : 7fb79b5000-7fb79c5000 r-xp 00000000 103:06 41330                         /system/lib64/libui.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb79c5000-7fb79c6000 r--p 00010000 103:06 41330                         /system/lib64/libui.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb79c6000-7fb79c7000 rw-p 00011000 103:06 41330                         /system/lib64/libui.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb79c7000-7fb79c8000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.258  3390  3390 W art     : 7fb79c8000-7fb79cf000 r-xp 00000000 103:06 41212                         /system/lib64/libnetutils.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb79cf000-7fb79df000 ---p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb79df000-7fb79e0000 r--p 00007000 103:06 41212                         /system/lib64/libnetutils.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb79e0000-7fb79e1000 rw-p 00008000 103:06 41212                         /system/lib64/libnetutils.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb79e1000-7fb79e9000 r-xp 00000000 103:06 41208                         /system/lib64/libnativehelper.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb79e9000-7fb79f8000 ---p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb79f8000-7fb79f9000 r--p 00007000 103:06 41208                         /system/lib64/libnativehelper.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb79f9000-7fb79fa000 rw-p 00008000 103:06 41208                         /system/lib64/libnativehelper.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb79fa000-7fb7a1b000 r-xp 00000000 103:06 41111                         /system/lib64/libexpat.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7a1b000-7fb7a2b000 ---p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb7a2
+03-24 15:11:36.258  3390  3390 W art     : b000-7fb7a2e000 r--p 00021000 103:06 41111                         /system/lib64/libexpat.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7a2e000-7fb7a2f000 rw-p 00024000 103:06 41111                         /system/lib64/libexpat.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7a2f000-7fb7a69000 r-xp 00000000 103:06 41041                         /system/lib64/libandroidfw.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7a69000-7fb7a79000 ---p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb7a79000-7fb7a7b000 r--p 0003b000 103:06 41041                         /system/lib64/libandroidfw.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7a7b000-7fb7a7c000 rw-p 0003d000 103:06 41041                         /system/lib64/libandroidfw.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7a7c000-7fb7a7d000 r-xp 00000000 103:06 41188                         /system/lib64/libmemtrack.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7a7d000-7fb7a8d000 ---p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb7a8d000-7fb7a8e000 r--p 00001000 103:06 41188                         /system/lib64/libmemtrack.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7a8e000-7fb7a8f000 rw-p 00002000 103:06 41188                         /system/lib64/libmemtrack.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7a8f000-7fb7a9a000 r-xp 00000000 103:06 41063                         /system/lib64/libbacktrace.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7a9a000-7fb7aa9000 ---p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb7aa9000-7fb7aab000 r--p 0000a000 103:06 41063                         /system/lib64/libbacktrace.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7aab000-7fb7aac000 rw-p 0000c000 103:06 41063                         /system/lib64/libbacktrace.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7aac000-7fb7ae4000 r-xp 00000000 103:06 41181                         /system/lib64/libm.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7ae4000-7fb7af4000 ---p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb7af4000-7fb7af5000 r--p 00038000 103:06 41181                         /system/lib64/libm.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7af5000-7fb7af6000 rw-p 00039000 103:06 41181                         /system/lib64/libm.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7af6000-7fb7bbb000 r-xp 00000000 103:06 41080                         /system/lib64/libc.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7bbb000-7fb7bca000 ---p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb7bca000-7fb7bd0000 r--p 000c4000 103:06 41080                         /system/lib64/libc.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7bd0000-7fb7bd3000 rw-p 000ca000 103:06 41080                         /system/lib64/libc.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7bd3000-7fb7be1000 rw-p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb7be1000-7fb7cb8000 r-xp 00000000 103:06 41079                         /system/lib64/libc++.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7cb8000-7fb7cc7000 ---p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb7cc7000-7fb7cce000 r--p 000df000 103:06 41079                         /system/lib64/libc++.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7cce000-7fb7ccf000 rw-p 000e6000 103:06 41079                         /system/lib64/libc++.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7ccf000-7fb7cd2000 rw-p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb7cd2000-7fb7d0e000 r-xp 00000000 103:06 41351                         /system/lib64/libwilhelm.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7d0e000-7fb7d1d000 ---p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb7d1d000-7fb7d22000 r--p 00040000 103:06 41351                         /system/lib64/libwilhelm.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7d22000-7fb7d23000 rw-p 00045000 103:06 41351                         /system/lib64/libwilhelm.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7d23000-7fb7d38000 r-xp 00000000 103:06 41260                         /system/lib64/libselinux.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7d38000-7fb7d48000 ---p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb7d48000-7fb7d49000 r--p 00015000 103:06 41260                         /system/lib64/libselinux.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7d49000-7fb7d4a000 rw-p 00016000 103:06 41260                         /system/lib64/libselinux.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7d4a000-7fb7d4b000 rw-p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb7d4b000-7fb7ea3000 r-xp 00000000 103:06 41039                         /system/lib64/libandroid_runtime.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7ea3000-7fb7eb3000 ---p 00000000 00:00 0 
+03-24 15:11:36.258  3390  3390 W art     : 7fb7eb3000-7fb7ebe000 r--p 00165000 103:06 41039                         /system/lib64/libandroid_runtime.so
+03-24 15:11:36.258  3390  3390 W art     : 7fb7ebe000-7fb7ecd000 rw-p 00170000 103:06 41039                         /system/lib64/libandroid_runtime.so
+03-24 15:11:36.259  3390  3390 W art     : 7fb7ecd000-7fb7ece000 rw-p 00000000 00:00 0 
+03-24 15:11:36.259  3390  3390 W art     : 7fb7ece000-7fb7f05000 r-xp 00000000 103:06 41074                         /system/lib64/libbinder.so
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f05000-7fb7f14000 ---p 00000000 00:00 0 
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f14000-7fb7f1f000 r--p 00043000 103:06 41074                         /system/lib64/libbinder.so
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f1f000-7fb7f20000 rw-p 0004e000 103:06 41074                         /system/lib64/libbinder.so
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f20000-7fb7f29000 r-xp 00000000 103:06 41179                         /system/lib64/liblog.so
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f29000-7fb7f39000 ---p 00000000 00:00 0 
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f39000-7fb7f3a000 r--p 00009000 103:06 41179                         /system/lib64/liblog.so
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f3a000-7fb7f3b000 rw-p 0000a000 103:06 41179                         /system/lib64/liblog.so
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f3b000-7fb7f5f000 r-xp 00000000 103:06 41335                         /system/lib64/libutils.so
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f5f000-7fb7f6e000 ---p 00000000 00:00 0 
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f6e000-7fb7f70000 r--p 00023000 103:06 41335                         /system/lib64/libutils.so
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f70000-7fb7f71000 rw-p 00025000 103:06 41335                         /system/lib64/libutils.so
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f71000-7fb7f87000 r-xp 00000000 103:06 41095                         /system/lib64/libcutils.so
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f87000-7fb7f96000 ---p 00000000 00:00 0 
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f96000-7fb7f97000 r--p 00015000 103:06 41095                         /system/lib64/libcutils.so
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f97000-7fb7f98000 rw-p 00016000 103:06 41095                         /system/lib64/libcutils.so
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f98000-7fb7f99000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+03-24 15:11:36.259  3390  3390 W art     : 7fb7f99000-7fb7fb9000 r--s 00000000 00:0e 8045                           /dev/__properties__
+03-24 15:11:36.259  3390  3390 W art     : 7fb7fb9000-7fb7fea000 r-xp 00000000 103:06 32839                         /system/bin/linker64
+03-24 15:11:36.259  3390  3390 W art     : 7fb7fea000-7fb7fed000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.259  3390  3390 W art     : 7fb7fed000-7fb7fee000 rw-p 00000000 00:00 0                              [anon:linker_alloc_64]
+03-24 15:11:36.259  3390  3390 W art     : 7fb7fee000-7fb7ff0000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.259  3390  3390 W art     : 7fb7ff0000-7fb7ff1000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.259  3390  3390 W art     : 7fb7ff1000-7fb7ff2000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+03-24 15:11:36.259  3390  3390 W art     : 7fb7ff2000-7fb7ff3000 r--p 00000000 00:00 0 
+03-24 15:11:36.259  3390  3390 W art     : 7fb7ff3000-7fb7ff4000 ---p 00000000 00:00 0 
+03-24 15:11:36.259  3390  3390 W art     : 7fb7ff4000-7fb7ff8000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+03-24 15:11:36.259  3390  3390 W art     : 7fb7ff8000-7fb7ff9000 r-xp 00000000 00:00 0                              [vdso]
+03-24 15:11:36.259  3390  3390 W art     : 7fb7ff9000-7fb7ffa000 r--p 00000000 00:00 0                              [vvar]
+03-24 15:11:36.259  3390  3390 W art     : 7fb7ffa000-7fb7ffb000 r--p 00031000 103:06 32839                         /system/bin/linker64
+03-24 15:11:36.259  3390  3390 W art     : 7fb7ffb000-7fb7ffd000 rw-p 00032000 103:06 32839                         /system/bin/linker64
+03-24 15:11:36.259  3390  3390 W art     : 7fb7ffd000-7fb8001000 rw-p 00000000 00:00 0 
+03-24 15:11:36.259  3390  3390 W art     : 7ffffdf000-8000000000 rw-p 00000000 00:00 0                              [stack]
+03-24 15:11:36.420  3391  3391 E dex2oat : Failed to create oat file: /data/dalvik-cache/arm64/system@framework@pm.jar@classes.dex: Permission denied
+03-24 15:11:36.440  3390  3390 W art     : Failed execv(/system/bin/dex2oat --runtime-arg -classpath --runtime-arg /system/framework/pm.jar --instruction-set=arm64 --instruction-set-features=smp,a53 --runtime-arg -Xnorelocate --boot-image=/system/framework/boot.art --runtime-arg -Xms64m --runtime-arg -Xmx512m --instruction-set-variant=generic --instruction-set-features=default --dex-file=/system/framework/pm.jar --oat-file=/data/dalvik-cache/arm64/system@framework@pm.jar@classes.dex) because non-0 exit status
+03-24 15:11:36.915  3246  3268 W dex2oat : Compilation of boolean com.android.internal.telephony.ITelephony$Stub.onTransact(int, android.os.Parcel, android.os.Parcel, int) took 114.571ms
+03-24 15:11:37.443  2508  3413 E System  : Uncaught exception thrown by finalizer
+03-24 15:11:37.444  2508  3413 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:11:37.444  2508  3413 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:11:37.444  2508  3413 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:11:37.444  2508  3413 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:11:37.444  2508  3413 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:11:37.444  2508  3413 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:11:39.065  3246  3263 W dex2oat : Compilation of void com.android.internal.telephony.uicc.SIMRecords.handleMessage(android.os.Message) took 173.582ms
+03-24 15:11:39.971  2508  2508 E ClassHook: Build proxy failed.
+03-24 15:11:39.971  2508  2508 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:11:39.971  2508  2508 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:11:39.971  2508  2508 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:11:39.971  2508  2508 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:11:39.971  2508  2508 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:11:39.971  2508  2508 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:11:39.971  2508  2508 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:11:39.971  2508  2508 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:11:39.971  2508  2508 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:11:40.550  2508  2508 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:11:40.551  2508  2508 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:11:40.551  2508  2508 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:11:41.136  2508  2508 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:11:41.154  2508  2508 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+03-24 15:11:41.507  2508  2508 E Xposed  : java.lang.ClassCastException: android.content.res.MiuiTypedArray cannot be cast to android.app.ActivityThread
+03-24 15:11:41.507  2508  2508 E Xposed  : 	at de.robv.android.xposed.XposedInit$2.beforeHookedMethod(XposedInit.java:109)
+03-24 15:11:41.507  2508  2508 E Xposed  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:340)
+03-24 15:11:41.507  2508  2508 E Xposed  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:11:41.507  2508  2508 E Xposed  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:11:41.507  2508  2508 E Xposed  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:11:41.507  2508  2508 E Xposed  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:11:41.507  2508  2508 E Xposed  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:11:41.507  2508  2508 E Xposed  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:11:41.507  2508  2508 E Xposed  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:11:41.507  2508  2508 E Xposed  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:11:41.507  2508  2508 E Xposed  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:11:41.507  2508  2508 E Xposed  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:11:41.507  2508  2508 E Xposed  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:11:41.508  2508  2508 W Zygote  : Failure preloading resources
+03-24 15:11:41.508  2508  2508 W Zygote  : java.lang.IllegalArgumentException: Expected receiver of type android.app.ActivityThread, but got android.content.res.MiuiTypedArray
+03-24 15:11:41.508  2508  2508 W Zygote  : 	at de.robv.android.xposed.XposedBridge.invokeOriginalMethodNative(Native Method)
+03-24 15:11:41.508  2508  2508 W Zygote  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:360)
+03-24 15:11:41.508  2508  2508 W Zygote  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:11:41.508  2508  2508 W Zygote  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:11:41.508  2508  2508 W Zygote  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:11:41.508  2508  2508 W Zygote  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:11:41.508  2508  2508 W Zygote  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:11:41.508  2508  2508 W Zygote  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:11:41.508  2508  2508 W Zygote  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:11:41.508  2508  2508 W Zygote  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:11:41.508  2508  2508 W Zygote  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:11:41.508  2508  2508 W Zygote  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:11:41.508  2508  2508 W Zygote  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:11:41.653  3462  3462 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:11:42.654  3462  3462 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:11:43.655  3462  3462 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:11:44.655  3462  3462 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:11:45.278  2496  2538 E ril_rore: Failed to connect netd
+03-24 15:11:45.656  3462  3462 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:11:46.657  3462  3462 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:11:47.061  2509  3493 E System  : Uncaught exception thrown by finalizer
+03-24 15:11:47.062  2509  3493 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:11:47.062  2509  3493 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:11:47.062  2509  3493 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:11:47.062  2509  3493 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:11:47.062  2509  3493 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:11:47.062  2509  3493 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:11:47.658  3462  3462 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:11:48.659  3462  3462 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:11:48.750  2509  2509 E ClassHook: Build proxy failed.
+03-24 15:11:48.750  2509  2509 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:11:48.750  2509  2509 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:11:48.750  2509  2509 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:11:48.750  2509  2509 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:11:48.750  2509  2509 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:11:48.750  2509  2509 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:11:48.750  2509  2509 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:11:48.750  2509  2509 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:11:48.750  2509  2509 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:11:48.877  2509  2509 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:11:48.878  2509  2509 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:11:48.878  2509  2509 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:11:49.161  2509  2509 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:11:49.178  2509  2509 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+03-24 15:12:15.987  3596  3596 E Lss     : Unable to open info file /data/gnss/pgps/cell_info.dat
+03-24 15:12:16.621  3596  3596 E [EELIB] GpsOrbitPredictor: initialize: ephemeris toe is within outage, gnss=1, svId=18, toe=[TOC](1,969,547200)/1205913600.000000
+03-24 15:12:16.626  3596  3596 E Lss     : Initializing predictor with ephemeris failed. Status is SV IN OUTAGE (14)
+03-24 15:12:16.981  3596  3596 E [EELIB] GpsOrbitPredictor: initialize: prediction disabled for gnss=1, svId=32, toe=[TOC](1,969,547200)/1205913600.000000
+03-24 15:12:16.986  3596  3596 E Lss     : Initializing predictor with ephemeris failed. Status is PREDICTION DISABLED (5)
+03-24 15:12:17.085  3596  3596 E [EELIB] GlonassOrbitPredictor: initialize: prediction disabled for gnss=2, svId=9, toe=[TOC](5,813,36900), gps_secs=1205910918.000000
+03-24 15:12:17.085  3596  3596 E Lss     : Initializing predictor with ephemeris failed. Status is PREDICTION DISABLED (5)
+03-24 15:12:17.215  3596  3596 E [EELIB] GlonassOrbitPredictor: initialize: prediction disabled for gnss=2, svId=19, toe=[TOC](5,813,36900), gps_secs=1205910918.000000
+03-24 15:12:17.215  3596  3596 E Lss     : Initializing predictor with ephemeris failed. Status is PREDICTION DISABLED (5)
+03-24 15:12:17.278  3596  3596 E [EELIB] GlonassOrbitPredictor: initialize: prediction disabled for gnss=2, svId=24, toe=[TOC](5,813,36900), gps_secs=1205910918.000000
+03-24 15:12:17.278  3596  3596 E Lss     : Initializing predictor with ephemeris failed. Status is PREDICTION DISABLED (5)
+03-24 15:12:17.603  3596  3596 W Lss     : Unable to open file /data/gnss/pgps/ephem03 for reading
+03-24 15:12:17.603  3596  3596 E Lss     : Unable to open info file /data/gnss/pgps/cell_info.dat
+03-24 15:15:26.384  4017  4017 E         : batterystats service unavailable!
+03-24 15:15:26.384  4017  4017 E         : batterystats service unavailable!
+03-24 15:15:26.385  4017  4017 E         : batterystats service unavailable!
+03-24 15:15:26.385  4017  4017 E         : batterystats service unavailable!
+03-24 15:15:26.653  4017  4017 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:15:26.655  4017  4017 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:15:26.655  4017  4017 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:15:26.656  4017  4017 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:15:26.684  4017  4017 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:15:26.788  4017  4017 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:15:26.790  4017  4017 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:15:26.790  4017  4017 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:15:26.791  4017  4017 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:15:26.791  4017  4017 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:15:26.818  4017  4017 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:15:26.818  4017  4017 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:15:28.574  4015  4015 E Netd    : cannot find interface dummy0
+03-24 15:15:30.113  4014  4297 E System  : Uncaught exception thrown by finalizer
+03-24 15:15:30.114  4014  4297 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:15:30.114  4014  4297 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:15:30.114  4014  4297 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:15:30.114  4014  4297 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:15:30.114  4014  4297 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:15:30.114  4014  4297 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:15:30.332  4014  4014 E ClassHook: Build proxy failed.
+03-24 15:15:30.332  4014  4014 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:15:30.332  4014  4014 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:15:30.332  4014  4014 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:15:30.332  4014  4014 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:15:30.332  4014  4014 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:15:30.332  4014  4014 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:15:30.332  4014  4014 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:15:30.332  4014  4014 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:15:30.332  4014  4014 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:15:30.461  4014  4014 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:15:30.462  4014  4014 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:15:30.462  4014  4014 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:15:30.739  4014  4014 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:15:30.757  4014  4014 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+03-24 15:15:31.120  4014  4014 E Xposed  : java.lang.ClassCastException: android.content.res.MiuiTypedArray cannot be cast to android.app.ActivityThread
+03-24 15:15:31.120  4014  4014 E Xposed  : 	at de.robv.android.xposed.XposedInit$2.beforeHookedMethod(XposedInit.java:109)
+03-24 15:15:31.120  4014  4014 E Xposed  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:340)
+03-24 15:15:31.120  4014  4014 E Xposed  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:15:31.120  4014  4014 E Xposed  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:15:31.120  4014  4014 E Xposed  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:15:31.120  4014  4014 E Xposed  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:15:31.120  4014  4014 E Xposed  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:15:31.120  4014  4014 E Xposed  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:15:31.120  4014  4014 E Xposed  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:15:31.120  4014  4014 E Xposed  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:15:31.120  4014  4014 E Xposed  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:15:31.120  4014  4014 E Xposed  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:15:31.120  4014  4014 E Xposed  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:15:31.121  4014  4014 W Zygote  : Failure preloading resources
+03-24 15:15:31.121  4014  4014 W Zygote  : java.lang.IllegalArgumentException: Expected receiver of type android.app.ActivityThread, but got android.content.res.MiuiTypedArray
+03-24 15:15:31.121  4014  4014 W Zygote  : 	at de.robv.android.xposed.XposedBridge.invokeOriginalMethodNative(Native Method)
+03-24 15:15:31.121  4014  4014 W Zygote  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:360)
+03-24 15:15:31.121  4014  4014 W Zygote  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:15:31.121  4014  4014 W Zygote  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:15:31.121  4014  4014 W Zygote  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:15:31.121  4014  4014 W Zygote  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:15:31.121  4014  4014 W Zygote  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:15:31.121  4014  4014 W Zygote  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:15:31.121  4014  4014 W Zygote  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:15:31.121  4014  4014 W Zygote  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:15:31.121  4014  4014 W Zygote  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:15:31.121  4014  4014 W Zygote  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:15:31.121  4014  4014 W Zygote  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:15:31.253  4306  4306 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:15:31.850  4017  4017 E audio_config: open dts file failed!
+03-24 15:15:31.850  4017  4017 E audio_config: get_audio_configs: get spk_pa_num_pro fail, set spk_pa_num_pro = none as default
+03-24 15:15:31.850  4017  4017 E audio_config: open dts file failed!
+03-24 15:15:31.850  4017  4017 E audio_config: get_audio_configs: get auxiliary_spk_pa_name fail, set auxiliary_spk_pa_name = none as default
+03-24 15:15:31.850  4017  4017 E audio_config: open dts file failed!
+03-24 15:15:31.850  4017  4017 E audio_config: get_audio_configs: get auxiliary_spk_pa_num_pro fail, set auxiliary_spk_pa_num_pro = none as default
+03-24 15:15:31.850  4017  4017 E audio_config: open dts file failed!
+03-24 15:15:31.850  4017  4017 E audio_config: get_audio_configs: get hs_pa_name fail, set hs_pa_name = none as default
+03-24 15:15:31.851  4017  4017 E audio_config: open dts file failed!
+03-24 15:15:31.851  4017  4017 E audio_config: get_audio_configs: get mic_name fail, set mic_name = none as default
+03-24 15:15:31.851  4017  4017 E audio_config: open dts file failed!
+03-24 15:15:31.851  4017  4017 W audio_config: get_audio_configs: get bwe function enable fail, set bwe function enable = 0 as default
+03-24 15:15:31.851  4017  4017 E audio_config: open dts file failed!
+03-24 15:15:31.851  4017  4017 W audio_config: get_audio_configs: get multi_mic function enable fail, set multi_mic  enable = 0 as default
+03-24 15:15:31.851  4017  4017 E audio_config: open dts file failed!
+03-24 15:15:31.851  4017  4017 E audio_config: get_audio_configs: get speaker_id_high name fail, set speaker_id_high name = none as default
+03-24 15:15:31.851  4017  4017 E audio_config: open dts file failed!
+03-24 15:15:31.851  4017  4017 E audio_config: get_audio_configs: get speaker_id_low name fail, set speaker_id_low name = none as default
+03-24 15:15:31.851  4017  4017 E         : rmt_oeminfo_read, connection fail
+03-24 15:15:31.851  4017  4017 E audio_config: get_extra_para: oeminfo is none
+03-24 15:15:31.872  4017  4017 E audio_route: Control 'RCV VIR_SWITCH RCV_EN' already exists in path 'dup-media-fm-earpiece'
+03-24 15:15:31.872  4017  4017 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker'
+03-24 15:15:31.873  4017  4017 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headset'
+03-24 15:15:31.873  4017  4017 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headphone'
+03-24 15:15:31.873  4017  4017 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-earpiece'
+03-24 15:15:31.873  4017  4017 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headset'
+03-24 15:15:31.873  4017  4017 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headphone'
+03-24 15:15:31.925  4017  4017 E         : rmt_oeminfo_read, connection fail
+03-24 15:15:31.925  4017  4017 E audio_config: get_extra_para: oeminfo is none
+03-24 15:15:31.951  4017  4017 E spk_dev_interface: get smartpa lib name error, use default
+03-24 15:15:31.951  4017  4017 W spk_dev_interface: Unknown device name, use default
+03-24 15:15:31.952  4017  4017 E spk_dev_interface: get auxiliary_spk lib name error
+03-24 15:15:31.952  4017  4017 E spk_dev_interface: load_hs_pa:get hs_pa lib name error, use default
+03-24 15:15:31.952  4017  4017 W spk_dev_interface: load_hs_pa:Unknown device name, use default
+03-24 15:15:31.954  4017  4017 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcbassboost.so
+03-24 15:15:31.955  4017  4017 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcvirt.so
+03-24 15:15:31.955  4017  4017 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcreverb.so
+03-24 15:15:31.955  4017  4017 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvisualizer.so
+03-24 15:15:31.956  4017  4017 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcompostprocbundle.so
+03-24 15:15:31.956  4017  4017 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvoiceprocessing.so
+03-24 15:15:31.976  4017  4017 W EffectsFactory: addSubEffect() could not get library qcbassboost
+03-24 15:15:31.976  4017  4017 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:15:31.976  4017  4017 W EffectsFactory: addSubEffect() could not get library qcvirt
+03-24 15:15:31.976  4017  4017 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:15:31.976  4017  4017 W EffectsFactory: addSubEffect() could not get library offload_bundle
+03-24 15:15:31.976  4017  4017 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:15:31.976  4017  4017 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:15:31.976  4017  4017 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:15:31.976  4017  4017 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:15:31.976  4017  4017 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:15:31.976  4017  4017 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:15:31.976  4017  4017 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:15:31.976  4017  4017 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:15:31.976  4017  4017 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:15:31.976  4017  4017 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+03-24 15:15:31.976  4017  4017 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:15:31.976  4017  4017 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:15:31.976  4017  4017 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:15:31.978  4017  4320 E AudioFlinger: no wake lock to update!
+03-24 15:15:31.984  4017  4017 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+03-24 15:15:31.986  4017  4017 E SoundTriggerHwService: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+03-24 15:15:31.986  4017  4017 E RadioService: couldn't load radio module radio.primary (No such file or directory)
+03-24 15:15:32.253  4306  4306 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:15:33.254  4306  4306 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:15:34.255  4306  4306 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:15:35.255  4306  4306 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:15:36.256  4306  4306 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:15:37.257  4306  4306 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:15:38.258  4306  4306 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:15:39.259  4306  4306 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:15:40.259  4306  4306 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:15:40.405  4010  4346 E System  : Uncaught exception thrown by finalizer
+03-24 15:15:40.406  4010  4346 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:15:40.406  4010  4346 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:15:40.406  4010  4346 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:15:40.406  4010  4346 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:15:40.406  4010  4346 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:15:40.406  4010  4346 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:15:40.635  4010  4010 E ClassHook: Build proxy failed.
+03-24 15:15:40.635  4010  4010 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:15:40.635  4010  4010 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:15:40.635  4010  4010 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:15:40.635  4010  4010 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:15:40.635  4010  4010 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:15:40.635  4010  4010 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:15:40.635  4010  4010 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:15:40.635  4010  4010 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:15:40.635  4010  4010 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:15:40.759  4010  4010 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:15:40.760  4010  4010 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:15:40.760  4010  4010 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:15:41.039  4010  4010 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:15:41.056  4010  4010 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+03-24 15:19:19.245  4831  4831 E         : batterystats service unavailable!
+03-24 15:19:19.246  4831  4831 E         : batterystats service unavailable!
+03-24 15:19:19.246  4831  4831 E         : batterystats service unavailable!
+03-24 15:19:19.246  4831  4831 E         : batterystats service unavailable!
+03-24 15:19:19.528  4831  4831 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:19:19.530  4831  4831 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:19:19.530  4831  4831 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:19:19.531  4831  4831 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:19:19.560  4831  4831 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:19:19.669  4831  4831 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:19:19.671  4831  4831 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:19:19.671  4831  4831 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:19:19.672  4831  4831 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:19:19.672  4831  4831 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:19:19.698  4831  4831 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:19:19.699  4831  4831 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:19:21.465  4832  4832 E Netd    : cannot find interface dummy0
+03-24 15:19:23.060  4829  5114 E System  : Uncaught exception thrown by finalizer
+03-24 15:19:23.061  4829  5114 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:19:23.061  4829  5114 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:19:23.061  4829  5114 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:19:23.061  4829  5114 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:19:23.061  4829  5114 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:19:23.061  4829  5114 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:19:23.278  4829  4829 E ClassHook: Build proxy failed.
+03-24 15:19:23.278  4829  4829 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:19:23.278  4829  4829 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:19:23.278  4829  4829 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:19:23.278  4829  4829 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:19:23.278  4829  4829 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:19:23.278  4829  4829 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:19:23.278  4829  4829 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:19:23.278  4829  4829 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:19:23.278  4829  4829 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:19:23.406  4829  4829 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:19:23.406  4829  4829 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:19:23.406  4829  4829 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:19:23.677  4829  4829 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:19:23.695  4829  4829 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+03-24 15:19:24.068  4829  4829 E Xposed  : java.lang.ClassCastException: android.content.res.MiuiTypedArray cannot be cast to android.app.ActivityThread
+03-24 15:19:24.068  4829  4829 E Xposed  : 	at de.robv.android.xposed.XposedInit$2.beforeHookedMethod(XposedInit.java:109)
+03-24 15:19:24.068  4829  4829 E Xposed  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:340)
+03-24 15:19:24.068  4829  4829 E Xposed  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:19:24.068  4829  4829 E Xposed  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:19:24.068  4829  4829 E Xposed  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:19:24.068  4829  4829 E Xposed  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:19:24.068  4829  4829 E Xposed  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:19:24.068  4829  4829 E Xposed  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:19:24.068  4829  4829 E Xposed  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:19:24.068  4829  4829 E Xposed  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:19:24.068  4829  4829 E Xposed  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:19:24.068  4829  4829 E Xposed  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:19:24.068  4829  4829 E Xposed  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:19:24.069  4829  4829 W Zygote  : Failure preloading resources
+03-24 15:19:24.069  4829  4829 W Zygote  : java.lang.IllegalArgumentException: Expected receiver of type android.app.ActivityThread, but got android.content.res.MiuiTypedArray
+03-24 15:19:24.069  4829  4829 W Zygote  : 	at de.robv.android.xposed.XposedBridge.invokeOriginalMethodNative(Native Method)
+03-24 15:19:24.069  4829  4829 W Zygote  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:360)
+03-24 15:19:24.069  4829  4829 W Zygote  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:19:24.069  4829  4829 W Zygote  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:19:24.069  4829  4829 W Zygote  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:19:24.069  4829  4829 W Zygote  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:19:24.069  4829  4829 W Zygote  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:19:24.069  4829  4829 W Zygote  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:19:24.069  4829  4829 W Zygote  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:19:24.069  4829  4829 W Zygote  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:19:24.069  4829  4829 W Zygote  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:19:24.069  4829  4829 W Zygote  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:19:24.069  4829  4829 W Zygote  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:19:24.199  5122  5122 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:19:24.740  4831  4831 E audio_config: open dts file failed!
+03-24 15:19:24.740  4831  4831 E audio_config: get_audio_configs: get spk_pa_num_pro fail, set spk_pa_num_pro = none as default
+03-24 15:19:24.740  4831  4831 E audio_config: open dts file failed!
+03-24 15:19:24.740  4831  4831 E audio_config: get_audio_configs: get auxiliary_spk_pa_name fail, set auxiliary_spk_pa_name = none as default
+03-24 15:19:24.740  4831  4831 E audio_config: open dts file failed!
+03-24 15:19:24.740  4831  4831 E audio_config: get_audio_configs: get auxiliary_spk_pa_num_pro fail, set auxiliary_spk_pa_num_pro = none as default
+03-24 15:19:24.740  4831  4831 E audio_config: open dts file failed!
+03-24 15:19:24.740  4831  4831 E audio_config: get_audio_configs: get hs_pa_name fail, set hs_pa_name = none as default
+03-24 15:19:24.740  4831  4831 E audio_config: open dts file failed!
+03-24 15:19:24.740  4831  4831 E audio_config: get_audio_configs: get mic_name fail, set mic_name = none as default
+03-24 15:19:24.740  4831  4831 E audio_config: open dts file failed!
+03-24 15:19:24.740  4831  4831 W audio_config: get_audio_configs: get bwe function enable fail, set bwe function enable = 0 as default
+03-24 15:19:24.740  4831  4831 E audio_config: open dts file failed!
+03-24 15:19:24.740  4831  4831 W audio_config: get_audio_configs: get multi_mic function enable fail, set multi_mic  enable = 0 as default
+03-24 15:19:24.740  4831  4831 E audio_config: open dts file failed!
+03-24 15:19:24.740  4831  4831 E audio_config: get_audio_configs: get speaker_id_high name fail, set speaker_id_high name = none as default
+03-24 15:19:24.740  4831  4831 E audio_config: open dts file failed!
+03-24 15:19:24.740  4831  4831 E audio_config: get_audio_configs: get speaker_id_low name fail, set speaker_id_low name = none as default
+03-24 15:19:24.741  4831  4831 E         : rmt_oeminfo_read, connection fail
+03-24 15:19:24.741  4831  4831 E audio_config: get_extra_para: oeminfo is none
+03-24 15:19:24.762  4831  4831 E audio_route: Control 'RCV VIR_SWITCH RCV_EN' already exists in path 'dup-media-fm-earpiece'
+03-24 15:19:24.762  4831  4831 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker'
+03-24 15:19:24.762  4831  4831 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headset'
+03-24 15:19:24.762  4831  4831 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headphone'
+03-24 15:19:24.762  4831  4831 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-earpiece'
+03-24 15:19:24.762  4831  4831 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headset'
+03-24 15:19:24.762  4831  4831 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headphone'
+03-24 15:19:24.815  4831  4831 E         : rmt_oeminfo_read, connection fail
+03-24 15:19:24.815  4831  4831 E audio_config: get_extra_para: oeminfo is none
+03-24 15:19:24.841  4831  4831 E spk_dev_interface: get smartpa lib name error, use default
+03-24 15:19:24.841  4831  4831 W spk_dev_interface: Unknown device name, use default
+03-24 15:19:24.842  4831  4831 E spk_dev_interface: get auxiliary_spk lib name error
+03-24 15:19:24.842  4831  4831 E spk_dev_interface: load_hs_pa:get hs_pa lib name error, use default
+03-24 15:19:24.842  4831  4831 W spk_dev_interface: load_hs_pa:Unknown device name, use default
+03-24 15:19:24.844  4831  4831 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcbassboost.so
+03-24 15:19:24.844  4831  4831 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcvirt.so
+03-24 15:19:24.844  4831  4831 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcreverb.so
+03-24 15:19:24.845  4831  4831 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvisualizer.so
+03-24 15:19:24.846  4831  4831 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcompostprocbundle.so
+03-24 15:19:24.846  4831  4831 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvoiceprocessing.so
+03-24 15:19:24.866  4831  4831 W EffectsFactory: addSubEffect() could not get library qcbassboost
+03-24 15:19:24.866  4831  4831 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:19:24.866  4831  4831 W EffectsFactory: addSubEffect() could not get library qcvirt
+03-24 15:19:24.866  4831  4831 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:19:24.867  4831  4831 W EffectsFactory: addSubEffect() could not get library offload_bundle
+03-24 15:19:24.867  4831  4831 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:19:24.867  4831  4831 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:19:24.867  4831  4831 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:19:24.867  4831  4831 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:19:24.867  4831  4831 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:19:24.867  4831  4831 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:19:24.867  4831  4831 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:19:24.867  4831  4831 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:19:24.867  4831  4831 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:19:24.867  4831  4831 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+03-24 15:19:24.867  4831  4831 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:19:24.867  4831  4831 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:19:24.867  4831  4831 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:19:24.868  4831  5136 E AudioFlinger: no wake lock to update!
+03-24 15:19:24.874  4831  4831 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+03-24 15:19:24.876  4831  4831 E SoundTriggerHwService: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+03-24 15:19:24.876  4831  4831 E RadioService: couldn't load radio module radio.primary (No such file or directory)
+03-24 15:19:25.200  5122  5122 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:19:26.200  5122  5122 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:19:27.201  5122  5122 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:19:28.202  5122  5122 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:19:29.202  5122  5122 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:19:30.203  5122  5122 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:19:31.204  5122  5122 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:19:32.205  5122  5122 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:19:33.000  4828  5160 E System  : Uncaught exception thrown by finalizer
+03-24 15:19:33.000  4828  5160 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:19:33.000  4828  5160 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:19:33.000  4828  5160 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:19:33.000  4828  5160 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:19:33.000  4828  5160 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:19:33.000  4828  5160 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:19:33.205  5122  5122 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:19:33.228  4828  4828 E ClassHook: Build proxy failed.
+03-24 15:19:33.228  4828  4828 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:19:33.228  4828  4828 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:19:33.228  4828  4828 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:19:33.228  4828  4828 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:19:33.228  4828  4828 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:19:33.228  4828  4828 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:19:33.228  4828  4828 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:19:33.228  4828  4828 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:19:33.228  4828  4828 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:19:33.352  4828  4828 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:19:33.352  4828  4828 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:19:33.353  4828  4828 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:19:33.627  4828  4828 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:19:33.644  4828  4828 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+03-24 15:23:11.993  5644  5644 E         : batterystats service unavailable!
+03-24 15:23:11.993  5644  5644 E         : batterystats service unavailable!
+03-24 15:23:11.993  5644  5644 E         : batterystats service unavailable!
+03-24 15:23:11.993  5644  5644 E         : batterystats service unavailable!
+03-24 15:23:12.273  5644  5644 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:23:12.274  5644  5644 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:23:12.274  5644  5644 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:23:12.276  5644  5644 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:23:12.305  5644  5644 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:23:12.407  5644  5644 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:23:12.409  5644  5644 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:23:12.409  5644  5644 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:23:12.410  5644  5644 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:23:12.410  5644  5644 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:23:12.436  5644  5644 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:23:12.436  5644  5644 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:23:14.186  5643  5643 E Netd    : cannot find interface dummy0
+03-24 15:23:15.804  5641  5926 E System  : Uncaught exception thrown by finalizer
+03-24 15:23:15.804  5641  5926 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:23:15.804  5641  5926 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:23:15.804  5641  5926 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:23:15.804  5641  5926 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:23:15.804  5641  5926 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:23:15.804  5641  5926 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:23:16.021  5641  5641 E ClassHook: Build proxy failed.
+03-24 15:23:16.021  5641  5641 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:23:16.021  5641  5641 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:23:16.021  5641  5641 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:23:16.021  5641  5641 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:23:16.021  5641  5641 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:23:16.021  5641  5641 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:23:16.021  5641  5641 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:23:16.021  5641  5641 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:23:16.021  5641  5641 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:23:16.151  5641  5641 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:23:16.152  5641  5641 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:23:16.152  5641  5641 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:23:16.411  5641  5641 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:23:16.428  5641  5641 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+03-24 15:23:16.780  5641  5641 E Xposed  : java.lang.ClassCastException: android.content.res.MiuiTypedArray cannot be cast to android.app.ActivityThread
+03-24 15:23:16.780  5641  5641 E Xposed  : 	at de.robv.android.xposed.XposedInit$2.beforeHookedMethod(XposedInit.java:109)
+03-24 15:23:16.780  5641  5641 E Xposed  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:340)
+03-24 15:23:16.780  5641  5641 E Xposed  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:23:16.780  5641  5641 E Xposed  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:23:16.780  5641  5641 E Xposed  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:23:16.780  5641  5641 E Xposed  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:23:16.780  5641  5641 E Xposed  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:23:16.780  5641  5641 E Xposed  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:23:16.780  5641  5641 E Xposed  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:23:16.780  5641  5641 E Xposed  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:23:16.780  5641  5641 E Xposed  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:23:16.780  5641  5641 E Xposed  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:23:16.780  5641  5641 E Xposed  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:23:16.781  5641  5641 W Zygote  : Failure preloading resources
+03-24 15:23:16.781  5641  5641 W Zygote  : java.lang.IllegalArgumentException: Expected receiver of type android.app.ActivityThread, but got android.content.res.MiuiTypedArray
+03-24 15:23:16.781  5641  5641 W Zygote  : 	at de.robv.android.xposed.XposedBridge.invokeOriginalMethodNative(Native Method)
+03-24 15:23:16.781  5641  5641 W Zygote  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:360)
+03-24 15:23:16.781  5641  5641 W Zygote  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:23:16.781  5641  5641 W Zygote  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:23:16.781  5641  5641 W Zygote  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:23:16.781  5641  5641 W Zygote  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:23:16.781  5641  5641 W Zygote  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:23:16.781  5641  5641 W Zygote  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:23:16.781  5641  5641 W Zygote  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:23:16.781  5641  5641 W Zygote  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:23:16.781  5641  5641 W Zygote  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:23:16.781  5641  5641 W Zygote  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:23:16.781  5641  5641 W Zygote  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:23:16.908  5932  5932 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:23:17.470  5644  5644 E audio_config: open dts file failed!
+03-24 15:23:17.470  5644  5644 E audio_config: get_audio_configs: get spk_pa_num_pro fail, set spk_pa_num_pro = none as default
+03-24 15:23:17.470  5644  5644 E audio_config: open dts file failed!
+03-24 15:23:17.470  5644  5644 E audio_config: get_audio_configs: get auxiliary_spk_pa_name fail, set auxiliary_spk_pa_name = none as default
+03-24 15:23:17.470  5644  5644 E audio_config: open dts file failed!
+03-24 15:23:17.470  5644  5644 E audio_config: get_audio_configs: get auxiliary_spk_pa_num_pro fail, set auxiliary_spk_pa_num_pro = none as default
+03-24 15:23:17.470  5644  5644 E audio_config: open dts file failed!
+03-24 15:23:17.470  5644  5644 E audio_config: get_audio_configs: get hs_pa_name fail, set hs_pa_name = none as default
+03-24 15:23:17.471  5644  5644 E audio_config: open dts file failed!
+03-24 15:23:17.471  5644  5644 E audio_config: get_audio_configs: get mic_name fail, set mic_name = none as default
+03-24 15:23:17.471  5644  5644 E audio_config: open dts file failed!
+03-24 15:23:17.471  5644  5644 W audio_config: get_audio_configs: get bwe function enable fail, set bwe function enable = 0 as default
+03-24 15:23:17.471  5644  5644 E audio_config: open dts file failed!
+03-24 15:23:17.471  5644  5644 W audio_config: get_audio_configs: get multi_mic function enable fail, set multi_mic  enable = 0 as default
+03-24 15:23:17.471  5644  5644 E audio_config: open dts file failed!
+03-24 15:23:17.471  5644  5644 E audio_config: get_audio_configs: get speaker_id_high name fail, set speaker_id_high name = none as default
+03-24 15:23:17.471  5644  5644 E audio_config: open dts file failed!
+03-24 15:23:17.471  5644  5644 E audio_config: get_audio_configs: get speaker_id_low name fail, set speaker_id_low name = none as default
+03-24 15:23:17.471  5644  5644 E         : rmt_oeminfo_read, connection fail
+03-24 15:23:17.471  5644  5644 E audio_config: get_extra_para: oeminfo is none
+03-24 15:23:17.492  5644  5644 E audio_route: Control 'RCV VIR_SWITCH RCV_EN' already exists in path 'dup-media-fm-earpiece'
+03-24 15:23:17.492  5644  5644 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker'
+03-24 15:23:17.493  5644  5644 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headset'
+03-24 15:23:17.493  5644  5644 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headphone'
+03-24 15:23:17.493  5644  5644 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-earpiece'
+03-24 15:23:17.493  5644  5644 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headset'
+03-24 15:23:17.493  5644  5644 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headphone'
+03-24 15:23:17.546  5644  5644 E         : rmt_oeminfo_read, connection fail
+03-24 15:23:17.546  5644  5644 E audio_config: get_extra_para: oeminfo is none
+03-24 15:23:17.572  5644  5644 E spk_dev_interface: get smartpa lib name error, use default
+03-24 15:23:17.572  5644  5644 W spk_dev_interface: Unknown device name, use default
+03-24 15:23:17.573  5644  5644 E spk_dev_interface: get auxiliary_spk lib name error
+03-24 15:23:17.573  5644  5644 E spk_dev_interface: load_hs_pa:get hs_pa lib name error, use default
+03-24 15:23:17.573  5644  5644 W spk_dev_interface: load_hs_pa:Unknown device name, use default
+03-24 15:23:17.575  5644  5644 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcbassboost.so
+03-24 15:23:17.575  5644  5644 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcvirt.so
+03-24 15:23:17.575  5644  5644 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcreverb.so
+03-24 15:23:17.576  5644  5644 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvisualizer.so
+03-24 15:23:17.577  5644  5644 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcompostprocbundle.so
+03-24 15:23:17.577  5644  5644 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvoiceprocessing.so
+03-24 15:23:17.597  5644  5644 W EffectsFactory: addSubEffect() could not get library qcbassboost
+03-24 15:23:17.598  5644  5644 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:23:17.598  5644  5644 W EffectsFactory: addSubEffect() could not get library qcvirt
+03-24 15:23:17.598  5644  5644 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:23:17.598  5644  5644 W EffectsFactory: addSubEffect() could not get library offload_bundle
+03-24 15:23:17.598  5644  5644 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:23:17.598  5644  5644 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:23:17.598  5644  5644 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:23:17.598  5644  5644 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:23:17.598  5644  5644 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:23:17.598  5644  5644 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:23:17.598  5644  5644 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:23:17.598  5644  5644 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:23:17.598  5644  5644 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:23:17.598  5644  5644 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+03-24 15:23:17.598  5644  5644 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:23:17.598  5644  5644 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:23:17.598  5644  5644 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:23:17.599  5644  5948 E AudioFlinger: no wake lock to update!
+03-24 15:23:17.605  5644  5644 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+03-24 15:23:17.607  5644  5644 E SoundTriggerHwService: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+03-24 15:23:17.608  5644  5644 E RadioService: couldn't load radio module radio.primary (No such file or directory)
+03-24 15:23:17.909  5932  5932 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:23:18.909  5932  5932 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:23:19.910  5932  5932 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:23:20.911  5932  5932 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:23:21.912  5932  5932 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:23:22.912  5932  5932 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:23:23.913  5932  5932 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:23:24.914  5932  5932 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:23:25.879  5640  5973 E System  : Uncaught exception thrown by finalizer
+03-24 15:23:25.880  5640  5973 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:23:25.880  5640  5973 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:23:25.880  5640  5973 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:23:25.880  5640  5973 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:23:25.880  5640  5973 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:23:25.880  5640  5973 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:23:25.915  5932  5932 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:23:26.111  5640  5640 E ClassHook: Build proxy failed.
+03-24 15:23:26.111  5640  5640 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:23:26.111  5640  5640 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:23:26.111  5640  5640 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:23:26.111  5640  5640 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:23:26.111  5640  5640 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:23:26.111  5640  5640 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:23:26.111  5640  5640 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:23:26.111  5640  5640 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:23:26.111  5640  5640 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:23:26.240  5640  5640 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:23:26.240  5640  5640 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:23:26.240  5640  5640 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:23:26.515  5640  5640 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:23:26.533  5640  5640 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+03-24 15:25:56.010  6300  6300 E Lss     : Unable to open info file /data/gnss/pgps/cell_info.dat
+03-24 15:25:56.010  6300  6300 W Lss     : Could not add optional cell id subblock.
+03-24 15:25:56.015  6300  6300 W Lss     : Unable to open file /data/gnss/pgps/ephem03 for reading
+03-24 15:25:56.016  6300  6300 E Lss     : Unable to open info file /data/gnss/pgps/cell_info.dat
+03-24 15:25:56.035  2685  6299 W AGNSSCONTROL: static void PACommMgr::PAInjectAssistance(SUPL_GPS_ASSISTANCE_DATA*, SUPL_GANSS_ASSISTANCE_DATA*, SUPL_ADDITIONAL_ASSISTANCE_DATA*) -- 987: pstGanssAsstData is NULL
+03-24 15:25:56.035  2685  6299 W AGNSSCONTROL: static void PACommMgr::PAInjectAssistance(SUPL_GPS_ASSISTANCE_DATA*, SUPL_GANSS_ASSISTANCE_DATA*, SUPL_ADDITIONAL_ASSISTANCE_DATA*) -- 996: pstAddlAsstData is NULL
+03-24 15:25:56.036  2685  6299 W AGNSSCONTROL: static void PACommMgr::PAInjectAssistance(SUPL_GPS_ASSISTANCE_DATA*, SUPL_GANSS_ASSISTANCE_DATA*, SUPL_ADDITIONAL_ASSISTANCE_DATA*) -- 978: pstGpsAssistanceData is NULL
+03-24 15:25:56.040  2685  6299 W AGNSSCONTROL: static void PACommMgr::PAInjectAssistance(SUPL_GPS_ASSISTANCE_DATA*, SUPL_GANSS_ASSISTANCE_DATA*, SUPL_ADDITIONAL_ASSISTANCE_DATA*) -- 996: pstAddlAsstData is NULL
+03-24 15:27:03.231  6448  6448 E         : batterystats service unavailable!
+03-24 15:27:03.231  6448  6448 E         : batterystats service unavailable!
+03-24 15:27:03.232  6448  6448 E         : batterystats service unavailable!
+03-24 15:27:03.232  6448  6448 E         : batterystats service unavailable!
+03-24 15:27:03.525  6448  6448 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:27:03.526  6448  6448 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:27:03.526  6448  6448 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:27:03.528  6448  6448 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:27:03.556  6448  6448 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:27:03.659  6448  6448 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:27:03.661  6448  6448 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:27:03.661  6448  6448 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:27:03.662  6448  6448 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:27:03.662  6448  6448 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:27:03.688  6448  6448 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:27:03.688  6448  6448 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:27:05.449  6447  6447 E Netd    : cannot find interface dummy0
+03-24 15:27:06.971  6445  6730 E System  : Uncaught exception thrown by finalizer
+03-24 15:27:06.971  6445  6730 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:27:06.971  6445  6730 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:27:06.971  6445  6730 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:27:06.971  6445  6730 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:27:06.971  6445  6730 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:27:06.971  6445  6730 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:27:07.189  6445  6445 E ClassHook: Build proxy failed.
+03-24 15:27:07.189  6445  6445 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:27:07.189  6445  6445 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:27:07.189  6445  6445 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:27:07.189  6445  6445 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:27:07.189  6445  6445 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:27:07.189  6445  6445 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:27:07.189  6445  6445 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:27:07.189  6445  6445 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:27:07.189  6445  6445 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:27:07.318  6445  6445 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:27:07.319  6445  6445 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:27:07.319  6445  6445 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:27:07.589  6445  6445 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:27:07.607  6445  6445 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+03-24 15:27:07.973  6445  6445 E Xposed  : java.lang.ClassCastException: android.content.res.MiuiTypedArray cannot be cast to android.app.ActivityThread
+03-24 15:27:07.973  6445  6445 E Xposed  : 	at de.robv.android.xposed.XposedInit$2.beforeHookedMethod(XposedInit.java:109)
+03-24 15:27:07.973  6445  6445 E Xposed  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:340)
+03-24 15:27:07.973  6445  6445 E Xposed  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:27:07.973  6445  6445 E Xposed  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:27:07.973  6445  6445 E Xposed  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:27:07.973  6445  6445 E Xposed  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:27:07.973  6445  6445 E Xposed  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:27:07.973  6445  6445 E Xposed  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:27:07.973  6445  6445 E Xposed  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:27:07.973  6445  6445 E Xposed  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:27:07.973  6445  6445 E Xposed  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:27:07.973  6445  6445 E Xposed  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:27:07.973  6445  6445 E Xposed  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:27:07.973  6445  6445 W Zygote  : Failure preloading resources
+03-24 15:27:07.973  6445  6445 W Zygote  : java.lang.IllegalArgumentException: Expected receiver of type android.app.ActivityThread, but got android.content.res.MiuiTypedArray
+03-24 15:27:07.973  6445  6445 W Zygote  : 	at de.robv.android.xposed.XposedBridge.invokeOriginalMethodNative(Native Method)
+03-24 15:27:07.973  6445  6445 W Zygote  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:360)
+03-24 15:27:07.973  6445  6445 W Zygote  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:27:07.973  6445  6445 W Zygote  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:27:07.973  6445  6445 W Zygote  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:27:07.973  6445  6445 W Zygote  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:27:07.973  6445  6445 W Zygote  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:27:07.973  6445  6445 W Zygote  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:27:07.973  6445  6445 W Zygote  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:27:07.973  6445  6445 W Zygote  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:27:07.973  6445  6445 W Zygote  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:27:07.973  6445  6445 W Zygote  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:27:07.973  6445  6445 W Zygote  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:27:08.103  6738  6738 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:27:08.720  6448  6448 E audio_config: open dts file failed!
+03-24 15:27:08.720  6448  6448 E audio_config: get_audio_configs: get spk_pa_num_pro fail, set spk_pa_num_pro = none as default
+03-24 15:27:08.720  6448  6448 E audio_config: open dts file failed!
+03-24 15:27:08.720  6448  6448 E audio_config: get_audio_configs: get auxiliary_spk_pa_name fail, set auxiliary_spk_pa_name = none as default
+03-24 15:27:08.720  6448  6448 E audio_config: open dts file failed!
+03-24 15:27:08.720  6448  6448 E audio_config: get_audio_configs: get auxiliary_spk_pa_num_pro fail, set auxiliary_spk_pa_num_pro = none as default
+03-24 15:27:08.720  6448  6448 E audio_config: open dts file failed!
+03-24 15:27:08.720  6448  6448 E audio_config: get_audio_configs: get hs_pa_name fail, set hs_pa_name = none as default
+03-24 15:27:08.720  6448  6448 E audio_config: open dts file failed!
+03-24 15:27:08.720  6448  6448 E audio_config: get_audio_configs: get mic_name fail, set mic_name = none as default
+03-24 15:27:08.720  6448  6448 E audio_config: open dts file failed!
+03-24 15:27:08.720  6448  6448 W audio_config: get_audio_configs: get bwe function enable fail, set bwe function enable = 0 as default
+03-24 15:27:08.720  6448  6448 E audio_config: open dts file failed!
+03-24 15:27:08.720  6448  6448 W audio_config: get_audio_configs: get multi_mic function enable fail, set multi_mic  enable = 0 as default
+03-24 15:27:08.720  6448  6448 E audio_config: open dts file failed!
+03-24 15:27:08.720  6448  6448 E audio_config: get_audio_configs: get speaker_id_high name fail, set speaker_id_high name = none as default
+03-24 15:27:08.720  6448  6448 E audio_config: open dts file failed!
+03-24 15:27:08.720  6448  6448 E audio_config: get_audio_configs: get speaker_id_low name fail, set speaker_id_low name = none as default
+03-24 15:27:08.721  6448  6448 E         : rmt_oeminfo_read, connection fail
+03-24 15:27:08.721  6448  6448 E audio_config: get_extra_para: oeminfo is none
+03-24 15:27:08.742  6448  6448 E audio_route: Control 'RCV VIR_SWITCH RCV_EN' already exists in path 'dup-media-fm-earpiece'
+03-24 15:27:08.742  6448  6448 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker'
+03-24 15:27:08.742  6448  6448 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headset'
+03-24 15:27:08.742  6448  6448 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headphone'
+03-24 15:27:08.742  6448  6448 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-earpiece'
+03-24 15:27:08.742  6448  6448 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headset'
+03-24 15:27:08.742  6448  6448 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headphone'
+03-24 15:27:08.795  6448  6448 E         : rmt_oeminfo_read, connection fail
+03-24 15:27:08.795  6448  6448 E audio_config: get_extra_para: oeminfo is none
+03-24 15:27:08.820  6448  6448 E spk_dev_interface: get smartpa lib name error, use default
+03-24 15:27:08.821  6448  6448 W spk_dev_interface: Unknown device name, use default
+03-24 15:27:08.821  6448  6448 E spk_dev_interface: get auxiliary_spk lib name error
+03-24 15:27:08.821  6448  6448 E spk_dev_interface: load_hs_pa:get hs_pa lib name error, use default
+03-24 15:27:08.822  6448  6448 W spk_dev_interface: load_hs_pa:Unknown device name, use default
+03-24 15:27:08.824  6448  6448 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcbassboost.so
+03-24 15:27:08.824  6448  6448 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcvirt.so
+03-24 15:27:08.824  6448  6448 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcreverb.so
+03-24 15:27:08.824  6448  6448 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvisualizer.so
+03-24 15:27:08.825  6448  6448 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcompostprocbundle.so
+03-24 15:27:08.825  6448  6448 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvoiceprocessing.so
+03-24 15:27:08.845  6448  6448 W EffectsFactory: addSubEffect() could not get library qcbassboost
+03-24 15:27:08.845  6448  6448 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:27:08.846  6448  6448 W EffectsFactory: addSubEffect() could not get library qcvirt
+03-24 15:27:08.846  6448  6448 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:27:08.846  6448  6448 W EffectsFactory: addSubEffect() could not get library offload_bundle
+03-24 15:27:08.846  6448  6448 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:27:08.846  6448  6448 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:27:08.846  6448  6448 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:27:08.846  6448  6448 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:27:08.846  6448  6448 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:27:08.846  6448  6448 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:27:08.846  6448  6448 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:27:08.846  6448  6448 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:27:08.846  6448  6448 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:27:08.846  6448  6448 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+03-24 15:27:08.846  6448  6448 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:27:08.846  6448  6448 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:27:08.846  6448  6448 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:27:08.847  6448  6754 E AudioFlinger: no wake lock to update!
+03-24 15:27:08.852  6448  6448 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+03-24 15:27:08.854  6448  6448 E SoundTriggerHwService: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+03-24 15:27:08.855  6448  6448 E RadioService: couldn't load radio module radio.primary (No such file or directory)
+03-24 15:27:09.104  6738  6738 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:27:10.105  6738  6738 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:27:11.106  6738  6738 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:27:12.106  6738  6738 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:27:13.107  6738  6738 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:27:14.108  6738  6738 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:27:15.109  6738  6738 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:27:16.109  6738  6738 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:27:17.095  6444  6778 E System  : Uncaught exception thrown by finalizer
+03-24 15:27:17.096  6444  6778 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:27:17.096  6444  6778 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:27:17.096  6444  6778 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:27:17.096  6444  6778 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:27:17.096  6444  6778 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:27:17.096  6444  6778 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:27:17.110  6738  6738 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:27:17.322  6444  6444 E ClassHook: Build proxy failed.
+03-24 15:27:17.322  6444  6444 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:27:17.322  6444  6444 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:27:17.322  6444  6444 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:27:17.322  6444  6444 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:27:17.322  6444  6444 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:27:17.322  6444  6444 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:27:17.322  6444  6444 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:27:17.322  6444  6444 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:27:17.322  6444  6444 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:27:17.446  6444  6444 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:27:17.446  6444  6444 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:27:17.446  6444  6444 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:27:17.720  6444  6444 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:27:17.737  6444  6444 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+03-24 15:30:53.487  7247  7247 E         : batterystats service unavailable!
+03-24 15:30:53.487  7247  7247 E         : batterystats service unavailable!
+03-24 15:30:53.491  7247  7247 E         : batterystats service unavailable!
+03-24 15:30:53.491  7247  7247 E         : batterystats service unavailable!
+03-24 15:30:53.778  7247  7247 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:30:53.780  7247  7247 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:30:53.780  7247  7247 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:30:53.782  7247  7247 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:30:53.812  7247  7247 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:30:53.920  7247  7247 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:30:53.921  7247  7247 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:30:53.921  7247  7247 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:30:53.922  7247  7247 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:30:53.922  7247  7247 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:30:53.950  7247  7247 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:30:53.950  7247  7247 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:30:55.687  7248  7248 E Netd    : cannot find interface dummy0
+03-24 15:30:57.342  7245  7529 E System  : Uncaught exception thrown by finalizer
+03-24 15:30:57.343  7245  7529 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:30:57.343  7245  7529 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:30:57.343  7245  7529 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:30:57.343  7245  7529 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:30:57.343  7245  7529 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:30:57.343  7245  7529 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:30:57.555  7245  7245 E ClassHook: Build proxy failed.
+03-24 15:30:57.555  7245  7245 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:30:57.555  7245  7245 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:30:57.555  7245  7245 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:30:57.555  7245  7245 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:30:57.555  7245  7245 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:30:57.555  7245  7245 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:30:57.555  7245  7245 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:30:57.555  7245  7245 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:30:57.555  7245  7245 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:30:57.688  7245  7245 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:30:57.689  7245  7245 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:30:57.689  7245  7245 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:30:57.957  7245  7245 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:30:57.975  7245  7245 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+03-24 15:30:58.328  7245  7245 E Xposed  : java.lang.ClassCastException: android.content.res.MiuiTypedArray cannot be cast to android.app.ActivityThread
+03-24 15:30:58.328  7245  7245 E Xposed  : 	at de.robv.android.xposed.XposedInit$2.beforeHookedMethod(XposedInit.java:109)
+03-24 15:30:58.328  7245  7245 E Xposed  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:340)
+03-24 15:30:58.328  7245  7245 E Xposed  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:30:58.328  7245  7245 E Xposed  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:30:58.328  7245  7245 E Xposed  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:30:58.328  7245  7245 E Xposed  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:30:58.328  7245  7245 E Xposed  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:30:58.328  7245  7245 E Xposed  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:30:58.328  7245  7245 E Xposed  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:30:58.328  7245  7245 E Xposed  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:30:58.328  7245  7245 E Xposed  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:30:58.328  7245  7245 E Xposed  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:30:58.328  7245  7245 E Xposed  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:30:58.329  7245  7245 W Zygote  : Failure preloading resources
+03-24 15:30:58.329  7245  7245 W Zygote  : java.lang.IllegalArgumentException: Expected receiver of type android.app.ActivityThread, but got android.content.res.MiuiTypedArray
+03-24 15:30:58.329  7245  7245 W Zygote  : 	at de.robv.android.xposed.XposedBridge.invokeOriginalMethodNative(Native Method)
+03-24 15:30:58.329  7245  7245 W Zygote  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:360)
+03-24 15:30:58.329  7245  7245 W Zygote  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:30:58.329  7245  7245 W Zygote  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:30:58.329  7245  7245 W Zygote  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:30:58.329  7245  7245 W Zygote  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:30:58.329  7245  7245 W Zygote  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:30:58.329  7245  7245 W Zygote  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:30:58.329  7245  7245 W Zygote  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:30:58.329  7245  7245 W Zygote  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:30:58.329  7245  7245 W Zygote  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:30:58.329  7245  7245 W Zygote  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:30:58.329  7245  7245 W Zygote  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:30:58.459  7537  7537 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:30:58.989  7247  7247 E audio_config: open dts file failed!
+03-24 15:30:58.989  7247  7247 E audio_config: get_audio_configs: get spk_pa_num_pro fail, set spk_pa_num_pro = none as default
+03-24 15:30:58.989  7247  7247 E audio_config: open dts file failed!
+03-24 15:30:58.989  7247  7247 E audio_config: get_audio_configs: get auxiliary_spk_pa_name fail, set auxiliary_spk_pa_name = none as default
+03-24 15:30:58.989  7247  7247 E audio_config: open dts file failed!
+03-24 15:30:58.989  7247  7247 E audio_config: get_audio_configs: get auxiliary_spk_pa_num_pro fail, set auxiliary_spk_pa_num_pro = none as default
+03-24 15:30:58.989  7247  7247 E audio_config: open dts file failed!
+03-24 15:30:58.990  7247  7247 E audio_config: get_audio_configs: get hs_pa_name fail, set hs_pa_name = none as default
+03-24 15:30:58.990  7247  7247 E audio_config: open dts file failed!
+03-24 15:30:58.990  7247  7247 E audio_config: get_audio_configs: get mic_name fail, set mic_name = none as default
+03-24 15:30:58.990  7247  7247 E audio_config: open dts file failed!
+03-24 15:30:58.990  7247  7247 W audio_config: get_audio_configs: get bwe function enable fail, set bwe function enable = 0 as default
+03-24 15:30:58.990  7247  7247 E audio_config: open dts file failed!
+03-24 15:30:58.990  7247  7247 W audio_config: get_audio_configs: get multi_mic function enable fail, set multi_mic  enable = 0 as default
+03-24 15:30:58.990  7247  7247 E audio_config: open dts file failed!
+03-24 15:30:58.990  7247  7247 E audio_config: get_audio_configs: get speaker_id_high name fail, set speaker_id_high name = none as default
+03-24 15:30:58.990  7247  7247 E audio_config: open dts file failed!
+03-24 15:30:58.990  7247  7247 E audio_config: get_audio_configs: get speaker_id_low name fail, set speaker_id_low name = none as default
+03-24 15:30:58.990  7247  7247 E         : rmt_oeminfo_read, connection fail
+03-24 15:30:58.990  7247  7247 E audio_config: get_extra_para: oeminfo is none
+03-24 15:30:59.011  7247  7247 E audio_route: Control 'RCV VIR_SWITCH RCV_EN' already exists in path 'dup-media-fm-earpiece'
+03-24 15:30:59.012  7247  7247 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker'
+03-24 15:30:59.012  7247  7247 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headset'
+03-24 15:30:59.012  7247  7247 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headphone'
+03-24 15:30:59.012  7247  7247 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-earpiece'
+03-24 15:30:59.012  7247  7247 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headset'
+03-24 15:30:59.012  7247  7247 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headphone'
+03-24 15:30:59.064  7247  7247 E         : rmt_oeminfo_read, connection fail
+03-24 15:30:59.064  7247  7247 E audio_config: get_extra_para: oeminfo is none
+03-24 15:30:59.090  7247  7247 E spk_dev_interface: get smartpa lib name error, use default
+03-24 15:30:59.090  7247  7247 W spk_dev_interface: Unknown device name, use default
+03-24 15:30:59.090  7247  7247 E spk_dev_interface: get auxiliary_spk lib name error
+03-24 15:30:59.090  7247  7247 E spk_dev_interface: load_hs_pa:get hs_pa lib name error, use default
+03-24 15:30:59.091  7247  7247 W spk_dev_interface: load_hs_pa:Unknown device name, use default
+03-24 15:30:59.093  7247  7247 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcbassboost.so
+03-24 15:30:59.093  7247  7247 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcvirt.so
+03-24 15:30:59.093  7247  7247 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcreverb.so
+03-24 15:30:59.093  7247  7247 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvisualizer.so
+03-24 15:30:59.094  7247  7247 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcompostprocbundle.so
+03-24 15:30:59.094  7247  7247 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvoiceprocessing.so
+03-24 15:30:59.114  7247  7247 W EffectsFactory: addSubEffect() could not get library qcbassboost
+03-24 15:30:59.114  7247  7247 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:30:59.114  7247  7247 W EffectsFactory: addSubEffect() could not get library qcvirt
+03-24 15:30:59.114  7247  7247 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:30:59.114  7247  7247 W EffectsFactory: addSubEffect() could not get library offload_bundle
+03-24 15:30:59.114  7247  7247 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:30:59.115  7247  7247 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:30:59.115  7247  7247 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:30:59.115  7247  7247 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:30:59.115  7247  7247 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:30:59.115  7247  7247 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:30:59.115  7247  7247 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:30:59.115  7247  7247 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:30:59.115  7247  7247 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:30:59.115  7247  7247 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+03-24 15:30:59.115  7247  7247 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:30:59.115  7247  7247 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:30:59.115  7247  7247 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:30:59.116  7247  7551 E AudioFlinger: no wake lock to update!
+03-24 15:30:59.123  7247  7247 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+03-24 15:30:59.126  7247  7247 E SoundTriggerHwService: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+03-24 15:30:59.126  7247  7247 E RadioService: couldn't load radio module radio.primary (No such file or directory)
+03-24 15:30:59.459  7537  7537 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:31:00.460  7537  7537 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:31:01.461  7537  7537 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:31:02.461  7537  7537 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:31:03.462  7537  7537 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:31:04.463  7537  7537 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:31:05.463  7537  7537 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:31:06.464  7537  7537 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:31:07.419  7244  7575 E System  : Uncaught exception thrown by finalizer
+03-24 15:31:07.420  7244  7575 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:31:07.420  7244  7575 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:31:07.420  7244  7575 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:31:07.420  7244  7575 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:31:07.420  7244  7575 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:31:07.420  7244  7575 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:31:07.465  7537  7537 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:31:07.645  7244  7244 E ClassHook: Build proxy failed.
+03-24 15:31:07.645  7244  7244 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:31:07.645  7244  7244 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:31:07.645  7244  7244 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:31:07.645  7244  7244 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:31:07.645  7244  7244 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:31:07.645  7244  7244 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:31:07.645  7244  7244 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:31:07.645  7244  7244 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:31:07.645  7244  7244 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:31:07.768  7244  7244 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:31:07.768  7244  7244 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:31:07.769  7244  7244 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:31:08.048  7244  7244 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:31:08.065  7244  7244 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+03-24 15:34:46.679  8051  8051 E         : batterystats service unavailable!
+03-24 15:34:46.679  8051  8051 E         : batterystats service unavailable!
+03-24 15:34:46.681  8051  8051 E         : batterystats service unavailable!
+03-24 15:34:46.681  8051  8051 E         : batterystats service unavailable!
+03-24 15:34:46.952  8051  8051 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:34:46.955  8051  8051 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:34:46.955  8051  8051 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:34:46.956  8051  8051 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:34:46.984  8051  8051 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:34:47.077  8051  8051 E CameraUtils: open file error /sys/kernel/debug/boardid/common/camera/faceIgnoreCount
+03-24 15:34:47.079  8051  8051 E CameraCapSnapshot: mPictureFmt = 825382478
+03-24 15:34:47.079  8051  8051 E CameraCapSnapshot: mPictureFmt = 842094158
+03-24 15:34:47.080  8051  8051 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:34:47.080  8051  8051 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:34:47.106  8051  8051 W CameraCapZslMode: [CAMERA_PARAM] the hardware do not support ZSL
+03-24 15:34:47.107  8051  8051 W CameraCapFlashMode: [CAMERA_PARAM] the hardware do not support flash
+03-24 15:34:48.878  8052  8052 E Netd    : cannot find interface dummy0
+03-24 15:34:50.563  8048  8334 E System  : Uncaught exception thrown by finalizer
+03-24 15:34:50.563  8048  8334 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:34:50.563  8048  8334 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:34:50.563  8048  8334 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:34:50.563  8048  8334 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:34:50.563  8048  8334 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:34:50.563  8048  8334 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:34:50.783  8048  8048 E ClassHook: Build proxy failed.
+03-24 15:34:50.783  8048  8048 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:34:50.783  8048  8048 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:34:50.783  8048  8048 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:34:50.783  8048  8048 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:34:50.783  8048  8048 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:34:50.783  8048  8048 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:34:50.783  8048  8048 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:34:50.783  8048  8048 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:34:50.783  8048  8048 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:34:50.914  8048  8048 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:34:50.915  8048  8048 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:34:50.915  8048  8048 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:34:51.186  8048  8048 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:34:51.204  8048  8048 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+03-24 15:34:51.560  8048  8048 E Xposed  : java.lang.ClassCastException: android.content.res.MiuiTypedArray cannot be cast to android.app.ActivityThread
+03-24 15:34:51.560  8048  8048 E Xposed  : 	at de.robv.android.xposed.XposedInit$2.beforeHookedMethod(XposedInit.java:109)
+03-24 15:34:51.560  8048  8048 E Xposed  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:340)
+03-24 15:34:51.560  8048  8048 E Xposed  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:34:51.560  8048  8048 E Xposed  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:34:51.560  8048  8048 E Xposed  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:34:51.560  8048  8048 E Xposed  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:34:51.560  8048  8048 E Xposed  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:34:51.560  8048  8048 E Xposed  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:34:51.560  8048  8048 E Xposed  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:34:51.560  8048  8048 E Xposed  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:34:51.560  8048  8048 E Xposed  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:34:51.560  8048  8048 E Xposed  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:34:51.560  8048  8048 E Xposed  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:34:51.560  8048  8048 W Zygote  : Failure preloading resources
+03-24 15:34:51.560  8048  8048 W Zygote  : java.lang.IllegalArgumentException: Expected receiver of type android.app.ActivityThread, but got android.content.res.MiuiTypedArray
+03-24 15:34:51.560  8048  8048 W Zygote  : 	at de.robv.android.xposed.XposedBridge.invokeOriginalMethodNative(Native Method)
+03-24 15:34:51.560  8048  8048 W Zygote  : 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:360)
+03-24 15:34:51.560  8048  8048 W Zygote  : 	at android.app.ActivityThread.handleBindApplication(<Xposed>)
+03-24 15:34:51.560  8048  8048 W Zygote  : 	at android.app.ActivityThreadHook.handleHandleBindApplication(ActivityThreadHook.java:47)
+03-24 15:34:51.560  8048  8048 W Zygote  : 	at android.app.ApplicationPackageManagerHook.handleGetResourcesForApplication(ApplicationPackageManagerHook.java:32)
+03-24 15:34:51.560  8048  8048 W Zygote  : 	at android.content.res.MiuiTypedArray.<init>(MiuiTypedArray.java:13)
+03-24 15:34:51.560  8048  8048 W Zygote  : 	at android.content.res.TypedArrayHook.handleObtain(TypedArrayHook.java:24)
+03-24 15:34:51.560  8048  8048 W Zygote  : 	at android.content.res.Resources.obtainTypedArray(Resources.java:590)
+03-24 15:34:51.560  8048  8048 W Zygote  : 	at android.content.res.ResourcesHook.handleObtainTypedArray(ResourcesHook.java:80)
+03-24 15:34:51.560  8048  8048 W Zygote  : 	at com.android.internal.os.ZygoteInit.preloadResources(ZygoteInit.java:336)
+03-24 15:34:51.560  8048  8048 W Zygote  : 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:183)
+03-24 15:34:51.560  8048  8048 W Zygote  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:593)
+03-24 15:34:51.560  8048  8048 W Zygote  : 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:34:51.688  8341  8341 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:34:52.139  8051  8051 E audio_config: open dts file failed!
+03-24 15:34:52.139  8051  8051 E audio_config: get_audio_configs: get spk_pa_num_pro fail, set spk_pa_num_pro = none as default
+03-24 15:34:52.139  8051  8051 E audio_config: open dts file failed!
+03-24 15:34:52.139  8051  8051 E audio_config: get_audio_configs: get auxiliary_spk_pa_name fail, set auxiliary_spk_pa_name = none as default
+03-24 15:34:52.139  8051  8051 E audio_config: open dts file failed!
+03-24 15:34:52.139  8051  8051 E audio_config: get_audio_configs: get auxiliary_spk_pa_num_pro fail, set auxiliary_spk_pa_num_pro = none as default
+03-24 15:34:52.139  8051  8051 E audio_config: open dts file failed!
+03-24 15:34:52.139  8051  8051 E audio_config: get_audio_configs: get hs_pa_name fail, set hs_pa_name = none as default
+03-24 15:34:52.140  8051  8051 E audio_config: open dts file failed!
+03-24 15:34:52.140  8051  8051 E audio_config: get_audio_configs: get mic_name fail, set mic_name = none as default
+03-24 15:34:52.140  8051  8051 E audio_config: open dts file failed!
+03-24 15:34:52.140  8051  8051 W audio_config: get_audio_configs: get bwe function enable fail, set bwe function enable = 0 as default
+03-24 15:34:52.140  8051  8051 E audio_config: open dts file failed!
+03-24 15:34:52.140  8051  8051 W audio_config: get_audio_configs: get multi_mic function enable fail, set multi_mic  enable = 0 as default
+03-24 15:34:52.140  8051  8051 E audio_config: open dts file failed!
+03-24 15:34:52.140  8051  8051 E audio_config: get_audio_configs: get speaker_id_high name fail, set speaker_id_high name = none as default
+03-24 15:34:52.140  8051  8051 E audio_config: open dts file failed!
+03-24 15:34:52.140  8051  8051 E audio_config: get_audio_configs: get speaker_id_low name fail, set speaker_id_low name = none as default
+03-24 15:34:52.140  8051  8051 E         : rmt_oeminfo_read, connection fail
+03-24 15:34:52.140  8051  8051 E audio_config: get_extra_para: oeminfo is none
+03-24 15:34:52.161  8051  8051 E audio_route: Control 'RCV VIR_SWITCH RCV_EN' already exists in path 'dup-media-fm-earpiece'
+03-24 15:34:52.161  8051  8051 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker'
+03-24 15:34:52.162  8051  8051 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headset'
+03-24 15:34:52.162  8051  8051 E audio_route: Control 'HISSC_SMT_HSL_MUTE' already exists in path 'dup-media-fm-headphone'
+03-24 15:34:52.162  8051  8051 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-earpiece'
+03-24 15:34:52.162  8051  8051 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headset'
+03-24 15:34:52.162  8051  8051 E audio_route: Control 'SMT_SIF_EN MIXER SIF_CLASSD_EN' already exists in path 'dup-media-fm-speaker-headphone'
+03-24 15:34:52.214  8051  8051 E         : rmt_oeminfo_read, connection fail
+03-24 15:34:52.214  8051  8051 E audio_config: get_extra_para: oeminfo is none
+03-24 15:34:52.240  8051  8051 E spk_dev_interface: get smartpa lib name error, use default
+03-24 15:34:52.240  8051  8051 W spk_dev_interface: Unknown device name, use default
+03-24 15:34:52.241  8051  8051 E spk_dev_interface: get auxiliary_spk lib name error
+03-24 15:34:52.241  8051  8051 E spk_dev_interface: load_hs_pa:get hs_pa lib name error, use default
+03-24 15:34:52.241  8051  8051 W spk_dev_interface: load_hs_pa:Unknown device name, use default
+03-24 15:34:52.243  8051  8051 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcbassboost.so
+03-24 15:34:52.243  8051  8051 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcvirt.so
+03-24 15:34:52.244  8051  8051 W EffectsFactory: loadLibrary() failed to open /vendor/lib/soundfx/libqcreverb.so
+03-24 15:34:52.244  8051  8051 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvisualizer.so
+03-24 15:34:52.245  8051  8051 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcompostprocbundle.so
+03-24 15:34:52.245  8051  8051 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libqcomvoiceprocessing.so
+03-24 15:34:52.265  8051  8051 W EffectsFactory: addSubEffect() could not get library qcbassboost
+03-24 15:34:52.265  8051  8051 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:34:52.265  8051  8051 W EffectsFactory: addSubEffect() could not get library qcvirt
+03-24 15:34:52.265  8051  8051 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:34:52.265  8051  8051 W EffectsFactory: addSubEffect() could not get library offload_bundle
+03-24 15:34:52.265  8051  8051 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:34:52.265  8051  8051 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:34:52.265  8051  8051 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:34:52.265  8051  8051 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:34:52.265  8051  8051 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:34:52.266  8051  8051 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:34:52.266  8051  8051 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:34:52.266  8051  8051 W EffectsFactory: addSubEffect() could not get library qcreverb
+03-24 15:34:52.266  8051  8051 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:34:52.266  8051  8051 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+03-24 15:34:52.266  8051  8051 W EffectsFactory: loadEffect() could not add subEffect 
+03-24 15:34:52.266  8051  8051 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:34:52.266  8051  8051 W EffectsFactory: loadEffect() could not get library audio_pre_processing
+03-24 15:34:52.267  8051  8355 E AudioFlinger: no wake lock to update!
+03-24 15:34:52.273  8051  8051 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+03-24 15:34:52.275  8051  8051 E SoundTriggerHwService: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+03-24 15:34:52.275  8051  8051 E RadioService: couldn't load radio module radio.primary (No such file or directory)
+03-24 15:34:52.688  8341  8341 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:34:53.689  8341  8341 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:34:54.690  8341  8341 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:34:55.690  8341  8341 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:34:56.691  8341  8341 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:34:57.692  8341  8341 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:34:58.692  8341  8341 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:34:59.693  8341  8341 W Zygote  : Got error connecting to zygote, retrying. msg= Connection refused
+03-24 15:35:00.389  8045  8379 E System  : Uncaught exception thrown by finalizer
+03-24 15:35:00.390  8045  8379 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void dalvik.system.CloseGuard.close()' on a null object reference
+03-24 15:35:00.390  8045  8379 E System  : 	at java.io.FileInputStream.close(FileInputStream.java:113)
+03-24 15:35:00.390  8045  8379 E System  : 	at java.io.FileInputStream.finalize(FileInputStream.java:140)
+03-24 15:35:00.390  8045  8379 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+03-24 15:35:00.390  8045  8379 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+03-24 15:35:00.390  8045  8379 E System  : 	at java.lang.Thread.run(Thread.java:818)
+03-24 15:35:00.621  8045  8045 E ClassHook: Build proxy failed.
+03-24 15:35:00.621  8045  8045 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+03-24 15:35:00.621  8045  8045 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+03-24 15:35:00.621  8045  8045 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+03-24 15:35:00.621  8045  8045 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+03-24 15:35:00.621  8045  8045 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+03-24 15:35:00.621  8045  8045 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+03-24 15:35:00.621  8045  8045 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+03-24 15:35:00.621  8045  8045 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+03-24 15:35:00.621  8045  8045 E ClassHook: 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:107)
+03-24 15:35:00.750  8045  8045 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+03-24 15:35:00.750  8045  8045 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+03-24 15:35:00.750  8045  8045 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+03-24 15:35:01.035  8045  8045 E EmojiFactory_jni: Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+03-24 15:35:01.053  8045  8045 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
